@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-footer.css" />
+    <link rel="stylesheet" href="/style-cookies.css" />
+    <link rel="stylesheet" href="/style-envio.css" />
+    <link rel="stylesheet" href="/style-suscribe.css" />
+    <link rel="stylesheet" href="/style-whatsYflecha.css" />
+    <link rel="stylesheet" href="/style-cart.css" />
+    <link rel="stylesheet" href="/style-responsive.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cyrcled</title>
+</head>
+
+<body>
+    <div class="flecha-arriba">
+        <img src="/img/flecha.png" alt="flecha" />
+    </div>
+    <div class="btn-whatsApp">
+        <a href="https://api.whatsapp.com/send?phone=+" class="btn-whatsApp" id="tooltip" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i><span class="tooltip-box">Contáctanos para conocer MÁS SOBRE NUESTROS
+                PRODUCTOS</span>
+        </a>
+    </div>
+    <!-------------------------------- MODAL CARGAR PÁGINA -------------------------------------->
+    <div class="modal-newslet-completa">
+        <input type="checkbox" id="cerrar">
+        <label for="cerrar" id="btn-cerrar">X</label>
+        <div class="modal-newslet">
+            <div class="contenido">
+                <h2 class="contenido-title">Suscríbete<br>
+                    y consigue <span class="modal-discount">10%</span> de dto<br>
+                    en tu próximo pedido</h2>
+                <h4>Apúntate a la newsletter y<br>
+                    te avisaremos de nuestras ofertas</h4>
+                <div class="email-newslet">
+                    <input type="email" name="email" id="email-newslet" placeholder="Email*" title="Campo obligatorio"
+                        required />
+                </div>
+                <div class="accept-newslet">
+                    <input type="submit" value="Me apunto" />
+                </div>
+                <div class="newslet-politica">
+                    <span>Echa un vistazo a nuestra&nbsp;</span>
+                    <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf">política de privacidad</a>
+                    <span>&nbsp;para saber más sobre el procesamiento de tus datos.&nbsp;</span>
+                </div>
+                <div class="newslet-politica-btn">
+                    <button class="btn-nogracias">No, gracias</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------- FIN MODAL CARGAR PÁGINA -------------------------------------->
+    <!-------------------------------- ENCABEZADO -------------------------------------->
+    <header>
+        <div class="suscribete">
+            <ul class="slide-text">Gastos de envío gratis a partir de 45€</ul>
+            <ul class="slide-text">Inicia sesión como socio/a y disfruta de las ventajas</ul>
+            <ul class="slide-text">Consigue un 10% de decuento extra. Suscríbete a la newsletter</ul>
+        </div>
+        <nav class="encabezado-completo" id="encabezado-completo">
+            <div class="encabezado">
+                <div class="nombre-tienda">
+                    <img class="cyrcled-logo" src="/img/Logo.png" alt="Logo Cyrcled" />
+                </div>
+                <div class="nav-icons">
+                    <input type="text" name="search" placeholder="Busca aquí tu producto" class="src"
+                        id="autocomplete-input" autocomplete="off" />
+                    <a href="#" title="Lista de deseos">
+                        <i class="fa-regular fa-heart fa-lg" alt="Lista de deseos"></i>
+                    </a>
+                    <div class="header__cart--notification">0</div>
+                    <a href="#" title="Carro de compra" class="principal-cartChart">
+                        <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
+                    </a>
+                    <a href="#" title="Mi cuenta">
+                        <i class="fa-solid fa-circle-user" alt="Login"></i>
+                    </a>
+                </div>
+                <!-------------------------------- PERSISTENT HEADER SCROLL -------------------------------------->
+                <div class="menu-appear">
+                    <div class="carro-compra-oculto">
+                        <div class="header__cart--notification-oculto">0</div>
+                        <a href="#" title="Carro compra" class="principal-cartChart-oculto">
+                            <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
+                        </a>
+                    </div>
+                    <div class="movil">
+                        <input type="checkbox" id="btn_menu">
+                        <label for="btn_menu" class="btn_menu flex_column">
+                            <span id="btn_span_1" class="btn_span"></span>
+                            <span id="btn_span_2" class="btn_span"></span>
+                            <span id="btn_span_3" class="btn_span"></span>
+                            <span class="menu-text">Menú</span>
+                        </label>
+                        <div class="container_flex">
+                            <nav class="container_menu flex_column">
+                                <ul class="container-list-elements">
+                                    <li><a href="#">inicio</a></li>
+                                    <li><a href="#">nosotros</a></li>
+                                    <li><a href="#">diseños</a></li>
+                                    <li><a href="#">contacto</a></li>
+                                </ul>
+                                <ul class="login-register">
+                                    <li><a href="#">Iniciar Sesión</a></li>
+                                    <hr>
+                                    <li><a href="#">Regístrate</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- <button class="main-menu" type="button" title="menu">
+                        <i class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                                <path d="M4 11h12v2H4zm0-5h16v2H4zm0 12h7.235v-2H4z"></path>
+                            </svg></i>
+                        <span>Menú</span>
+                    </button> -->
+                </div>
+                <!-------------------------------- FIN PERSISTENT HEADER SCROLL -------------------------------------->
+            </div>
+            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
+            <!-- <div id="modal-menu" class="modal-menu">
+                <button class="modal-menu-close">&times;</button>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div> -->
+
+            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
+        </nav>
+        <hr class="fin-encab" />
+    </header>
+    <!-------------------------------- FIN ENCABEZADO -------------------------------------->
+
+    <!-------------------------------- SLIDER IMAGENES AUTO -------------------------------------->
+    <article class="juntas">
+        <div class="imagen-detras">
+            <!-- <h1 class="secreto">
+                El secreto de un gran estilo <br />
+                es sentirte bien con lo que usas
+            </h1> -->
+            <div class="secreto-dos">
+                <h1 class="secreto-dos-heading">
+                    ¿Y si empiezas a cuidarte?
+                </h1>
+                <p class="secreto-dos-subheading">Descubre Cyrcled®, ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium iusto in soluta aut odio facilis ullam eos tempora repudiandae voluptate sunt.
+                </p>
+            </div>
+            <div id="carrusel-contenido">
+                <div id="carrusel-caja">
+                    <div class="carrusel-elemento">
+                        <img class="imagenes" src="/img/slider/Imagen1.jpg" alt="Error de carga">
+                    </div>
+                    <div class="carrusel-elemento">
+                        <img class="imagenes" src="/img/slider/Imagen2.jpg" alt="Error de carga">
+                    </div>
+                    <div class="carrusel-elemento">
+                        <img class="imagenes" src="/img/slider/Imagen3.jpg" alt="Error de carga">
+                    </div>
+                </div>
+            </div>
+    </article>
+    <!-------------------------------- FIN SLIDER IMAGENES AUTO -------------------------------------->
+
+    <!-------------------------------- MENU SECCIONES -------------------------------------->
+    <div class="page-menu-encab">
+        <ul class="menu-encab">
+            <li>
+                <a href="#"><img src="/img/encabezado/cosmetica.jpg" alt="">
+                    <div class="card">Cosmética</div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/img/encabezado/maquillaje.jpg" alt="">
+                    <div class="card">Maquillaje</div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/img/encabezado/cabello.jpg" alt="">
+                    <div class="card">Cabello</div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/img/encabezado/manos.jpg" alt="">
+                    <div class="card">Manos</div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><img src="/img/encabezado/cuerpo.jpg" alt="">
+                    <div class="card">Cuerpo</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- <hr class="fin-encab" />  -->
+    <!-------------------------------- FIN MENU SECCIONES -------------------------------------->
+
+    <section class="global-sec">
+        <section class="global-sec-nov">
+            <div>
+                <h2 class="nov-semana">Novedades</h2>
+            </div>
+            <div class="container-items">
+                <!-------------------------------- PRIMER GRUPO DE PRODUCTOS (NOVEDADES) -------------------------------------->
+                <div class="item">
+                    <figure>
+                        <div class="product-offer">
+                            <p class="sticker_1">MÁS VENDIDO</p>
+                        </div>
+                        <img src="/img/novedades/hyaluronic.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Ácido hialurónico</h2>
+                        <div class="details-prices">
+                            <p class="price">38,00€</p>
+                            <p class="price-rebaja">22,80€</p><span class="percent-discount">40%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element1">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <div class="product-offer">
+                            <p class="sticker_1">MÁS VENDIDO</p>
+                        </div>
+                        <img src="/img/novedades/labios.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Pintalabios</h2>
+                        <div class="details-prices">
+                            <p class="price">18,00€</p>
+                            <p class="price-rebaja">16,20€</p><span class="percent-discount">10%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element2">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="/img/novedades/cream.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Crema corporal</h2>
+                        <div class="details-prices">
+                            <p class="price">18,00€</p>
+                            <p class="price-rebaja">12,60€</p><span class="percent-discount">30%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element3">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="/img/novedades/face-wash.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Hidratante facial</h2>
+                        <div class="details-prices">
+                            <p class="price">35,40€</p>
+                            <p class="price-rebaja">7,08€</p><span class="percent-discount">80%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element4">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------- FIN PRIMER GRUPO DE PRODUCTOS (NOVEDADES) -------------------------------------->
+
+                <!-------------------------------- SEGUNDO GRUPO DE PRODUCTOS (NOVEDADES) -------------------------------------->
+                <div class="item dissapear">
+                    <figure>
+                        <img src="/img/novedades/hidratant.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Skin care</h2>
+                        <div class="details-prices">
+                            <p class="price">15,40€</p>
+                            <p class="price-rebaja">13,86€</p><span class="percent-discount">10%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element4">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item dissapear">
+                    <figure>
+                        <img src="/img/novedades/limpiadorFacial.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Limpiador facial</h2>
+                        <div class="details-prices">
+                            <p class="price">5,55€</p>
+                            <p class="price-rebaja">5,10€</p><span class="percent-discount">8%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element4">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item dissapear">
+                    <figure>
+                        <img src="/img/novedades/solar.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Crema solar</h2>
+                        <div class="details-prices">
+                            <p class="price">12,44€</p>
+                            <p class="price-rebaja">6,22€</p><span class="percent-discount">50%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element4">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item dissapear">
+                    <figure>
+                        <img src="/img/novedades/desinfectante.jpg" alt="Error de carga">
+                    </figure>
+                    <div class="info-product">
+                        <h2>Desinfectante de manos</h2>
+                        <div class="details-prices">
+                            <p class="price">6,15€</p>
+                            <p class="price-rebaja">4,92€</p><span class="percent-discount">20%</span>
+                        </div>
+                        <div class="corazon">
+                            <button class="add-cart"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                Añadir al carrito
+                            </button>
+                            <div class="change" id="element4">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------- FIN SEGUNDO GRUPO DE PRODUCTOS (NOVEDADES) -------------------------------------->
+
+            </div>
+            <button class="btn-light">Ver más</button>
+        </section>
+        <!-- <hr class="fin-encab" /> -->
+        <!-------------------------------- SECCION ENVIOS -------------------------------------->
+        <section class="imagen-envio">
+            <div class="titulo">
+
+                <img src="/assets/envios/box-service-1.png" alt="Entrega Pedidos" />
+
+                <div class="envio">
+                    <h3>Envíos a nivel nacional</h3>
+                    <hr class="separar-envio" />
+                    <a href="#">
+                        <span class="entre24">Compras a partir de 35$</span>
+                    </a>
+                </div>
+            </div>
+            <div class="titulo">
+
+                <img src="/assets/envios/box-service-2.png" alt="Tiempo de envío" />
+
+                <div class="envio">
+                    <h3>Tiempo de entrega</h3>
+                    <hr class="separar-envio" />
+                    <a href="#">
+                        <span class="entre24">Entre 24 y 48 horas</span>
+                    </a>
+                </div>
+            </div>
+            <div class="titulo">
+
+                <img src="/assets/envios/box-service-3.png" alt="Garantía de calidad" />
+
+                <div class="envio">
+                    <h3>Garantía de calidad</h3>
+                    <hr class="separar-envio" />
+                    <a href="#">
+                        <span class="entre24">Empaquetado cuidadosamente</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- <hr class="fin-encab" /> -->
+        <!-------------------------------- FIN SECCION ENVIOS -------------------------------------->
+
+    </section>
+    <!-------------------------------- FORMULARIO SUSCRIPCIÓN -------------------------------------->
+    <section class="boletin">
+        <div class="seccion-destino">
+            <div class="enterate" id="enterate">
+                <h2>Entérate de todo</h2>
+                <div class="form">
+                    <form action="#" method="POST">
+                        <div class="name">
+                            <label for="tnp-name">Nombre</label>
+                            <input type="text" name="name" id="name" placeholder="" />
+                        </div>
+                        <div class="email">
+                            <label for="tnp-email" required>Email*</label>
+                            <input type="email" name="email" id="email" placeholder="" required />
+                        </div>
+                        <div>
+                            <label class="container-policy">
+                                <input type="checkbox" required />
+                                Si continúas, aceptas la <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf"
+                                    title="Política de privacidad" target="_blank"> Política de Privacidad</a>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Suscribirse" />
+                            <p id="cancelar-suscri">¿Cómo cancelar la suscripción?</p>
+                        </div>
+                    </form>
+                </div>
+                <hr class="fin-encab" />
+            </div>
+
+            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
+            <div id="ventana-modal" class="modal">
+                <div class="contenido-modal">
+                    <span class="close">&times;</span>
+                    <div class="contenedor-modal">
+                        <h1 class="cancelar-suscri-bis">¿Cómo cancelar la suscripción?</h1>
+                        <hr>
+                        <p class="cancelar-suscri-parraf">Para dejar de recibir Newsletters solicítalo vía
+                            <strong>cyrcled@gmail.es</strong> o a través del enlace de BAJA o similar que aparece en
+                            los envíos. Tu
+                            solicitud se tramitará en aproximadamente 72h, por lo que podrías recibir alguna
+                            comunicación comercial
+                            durante este tiempo.
+                        </p>
+                        <hr>
+                        <button class="btn-ok">OK</button>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
+        </div>
+        <!-------------------------------- FIN FORMULARIO SUSCRIPCIÓN -------------------------------------->
+
+        <!-------------------------------- FOOTER -------------------------------------->
+
+        <footer>
+            <div class="seccion-destino-footer">
+                <div class="footer-clic">
+                    <div class="siguenos">
+                        <h5>Síguenos</h5>
+                        <a href="https://es-es.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                        <div class="nombre-tienda">
+                            <img class="cyrcled-logo-foot" src="/img/Logo.png" alt="Logo Cyrcled" />
+                        </div>
+                    </div>
+                    <div class="location-clic">
+                        <h5>Contacto</h5>
+                        <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>cyrcled@gmail.es</span>
+                        </a>
+                    </div>
+                    <div class="location-clic">
+                        <h5>Metodos de pago</h5>
+                        <div class="metodos-pago">
+                            <a href="#">
+                                <i class="fa-brands fa-cc-visa"></i><span class="pay-icon">Visa</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-cc-mastercard"></i><span class="pay-icon">Master Card</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-paypal"></i><span class="paypal-icon">PayPal</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-gift"></i><span class="pay-icon">Tarjeta regalo</span>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <div class="footer_bottom">
+                        <hr class="separa-encab" />
+                        <div class="condiciones-politicas">
+                            <a href="#" title="Condiciones de uso" target="_blank"><strong>CONDICIONES DE
+                                    USO</strong></a>
+                            |
+                            <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf" title="Política de privacidad"
+                                target="_blank">Política de privacidad</a>
+                            |
+                            <a href="/assets/politicaPrivacidad/PoliticaCookies.pdf" title="Politica de cookies"
+                                target="_blank"><b>POLÍTICA DE COOKIES</b></a>
+                            |
+                            <a href="#" title="Condiciones de Compra" target="_blank">Términos y condiciones de
+                                compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Made with <i class="fa fa-heart"></i> by
+                        <a href="https://github.com/David-Subiela" target="_blank">David</a>
+                        <i class="fa-regular fa-copyright"></i> 2023
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-------------------------------- FIN FOOTER -------------------------------------->
+
+    <!-------------------------------- COOKIES -------------------------------------->
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta" src="/img/svg/cookie.svg" alt="Galleta" />
+        <h3 class="titulo-cookies">Cookies</h3>
+        <p class="parrafo">
+            Utilizamos cookies propias y de terceros para mejorar nuestros
+            servicios.
+        </p>
+        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+        <br>
+        <a class="enlace" href="/index-aviso-cookies.html">Aviso de Cookies</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+    <!-------------------------------- FIN COOKIES -------------------------------------->
+    <script src="/script.js"></script>
+    <script src="/script-favheartVermas.js"></script>
+    <script src="/script-persistHeader.js"></script>
+    <script src="/script-cookies.js"></script>
+</body>
+
+</html>

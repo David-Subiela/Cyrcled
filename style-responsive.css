@@ -1,0 +1,224 @@
+@media (max-width: 390px) {
+  /* FLECHA ARRIBA */
+  .flecha-arriba {
+    width: 30px;
+    height: 30px;
+    right: 15px;
+  }
+
+  /* WHATSAPP */
+  .btn-whatsApp {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  /* NEWSLETTER */
+  .contenido {
+    width: 70%;
+    height: 65%;
+    right: 58px;
+    top: 100px;
+  }
+  #cerrar + label {
+    right: 45px;
+  }
+  .contenido h2 {
+    font-size: 20px;
+  }
+  .contenido h4 {
+    font-size: 12px;
+  }
+  input#email-newslet {
+    height: 40px;
+    width: 85%;
+    font-size: 11px;
+  }
+  .accept-newslet input {
+    font-size: 11px;
+    height: 49px;
+    width: 70%;
+  }
+
+  /* ENCABEZADO */
+  .suscribete {
+    font-size: 0.6rem;
+  }
+  .encabezado {
+    justify-content: inherit;
+  }
+  .cyrcled-logo {
+    width: 65px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  input#autocomplete-input {
+    width: 155px;
+    margin-left: 30px;
+  }
+  input[type="text"] {
+    padding: 7px;
+  }
+  input.src {
+    margin-right: 40px;
+    font-size: 11px;
+  }
+  .nav-icons {
+    gap: 5px;
+  }
+  .nav-icons a {
+    font-size: 15px;
+  }
+  .header__cart--notification {
+    right: 28px;
+    top: 45px;
+  }
+
+  /* SLIDER DE IMAGENES AUTOMATICO: */
+
+  .secreto-dos {
+    margin-left: 9px;
+    margin-bottom: 30px;
+  }
+  .secreto-dos-heading {
+    font-size: 19px;
+    max-width: 10rem;
+    text-align: center;
+  }
+  .secreto-dos-subheading {
+    font-size: 12px;
+    max-width: 9rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .imagenes {
+    height: 270px;
+  }
+  #carrusel-caja {
+    height: 300px;
+  }
+
+  /* MENU SECCIONES */
+  .menu-encab {
+    margin-top: 0px;
+    gap: 7px;
+  }
+  .menu-encab img {
+    width: 50px;
+    height: 50px;
+  }
+  .card {
+    margin-bottom: 0rem;
+    font-size: 10px;
+  }
+
+  /* MENU HAMBURGUESA */
+  .container_menu {
+    width: 190px;
+    top: 60px;
+    height: 93vh;
+  }
+  .login-register {
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 25px;
+    text-align: center;
+    height: 125px;
+  }
+  .login-register a {
+    font-size: 10px;
+  }
+  .header__cart--notification-oculto {
+    top: 15px;
+  }
+
+  /* GRUPO DE PRODUCTOS (NOVEDADES) */
+  .nov-semana {
+    font-size: 20px;
+    padding: 30px;
+  }
+  .container-items {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .item {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 155px;
+    /* height: 80%; */
+  }
+  .item figure {
+    height: 70%;
+  }
+  .item img {
+    height: 260px;
+  }
+  .info-product button {
+    gap: 7px;
+  }
+  .info-product h2 {
+    font-size: 11px;
+  }
+  .add-cart {
+    font-size: 11px;
+    /* margin-bottom: 6px; */
+  }
+  .info-product {
+    padding-top: 0px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* SECCION ENVIOS */
+  .imagen-envio {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen-envio img {
+    width: 350px;
+  }
+  .titulo {
+    height: 186px;
+  }
+  .envio {
+    margin-top: 10px;
+  }
+
+  /* FOOTER */
+  .footer-clic {
+    justify-content: center;
+    padding: 10px;
+  }
+  .footer-clic h5 {
+    font-size: 17px;
+  }
+  .location-clic {
+    font-size: 15px;
+  }
+  .metodos-pago {
+    padding-left: 10px;
+  }
+
+  .separa-encab {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .footer_bottom {
+    text-align: center;
+  }
+  .condiciones-politicas {
+    font-size: 15px;
+  }
+  footer .col-md-4 {
+    padding-top: 45px;
+  }
+
+  /* COOKIES */
+  .aviso-cookies {
+    bottom: 150px;
+    left: 20px;
+    padding-top: 65px;
+  }
+}

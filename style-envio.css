@@ -1,0 +1,76 @@
+/* SECCIÓN ENVIOS UNO*/
+.imagen-envio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.imagen-envio img {
+  transition: 1s linear;
+}
+
+.imagen-envio img:hover {
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+}
+
+.envio {
+  text-align: center;
+  transform: translate(0%, -200%);
+}
+
+.separar-envio {
+  width: 10%;
+  margin-left: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+.entre24 {
+  font-style: italic;
+  color: var(--tropical-rain-forest);
+}
+.entre24:hover {
+  text-decoration: underline;
+}
+
+/* SECTION ENVIOS DOS*/
+/* .bennefits {
+  background-color: #ffffff;
+  height: 163px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bennefits-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+.bennefits-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #525252;
+  line-height: 20px;
+  margin-top: 8px;
+}
+.bennefits-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #525252;
+  justify-content: center;
+}
+ */
