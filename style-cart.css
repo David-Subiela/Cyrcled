@@ -23,8 +23,8 @@
 
 .carro-compra-oculto a {
   color: var(--endeavour);
-  /*  margin-left: 1120px; */
-  font-size: 25px;
+  font-size: 30px;
+  margin-right: 25px;
 }
 .carro-compra-oculto a:hover {
   color: var(--tropical-rain-forest);
@@ -37,8 +37,8 @@
   height: 14px;
   border-radius: 16px;
   position: absolute;
-  top: 7px;
-  right: 60px;
+  top: 10px;
+  right: 20px;
   font-size: 0.6em;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
@@ -91,7 +91,8 @@ button.main-menu span {
 .btn_menu {
   position: fixed;
   top: 13px;
-  right: 20px;
+  left: 20px;
+  /* right: 20px; */
   z-index: 3;
   cursor: pointer;
 }
@@ -139,6 +140,29 @@ button.main-menu span {
   right: 3px;
 }
 
+/* FONDO OSCURO EN MENU HAMBURGUESA */
+/* .container_flex {
+  position: relative;
+  z-index: 1;
+} */
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); 
+  display: none;
+}
+#btn_menu:checked ~ .overlay {
+  display: block;
+} */
+
 /* .container_flex {
   position: relative;
   width: 100%;
@@ -158,6 +182,7 @@ button.main-menu span {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 } */
+
 .container_menu {
   width: 100%;
   height: 100vh;
@@ -165,10 +190,10 @@ button.main-menu span {
 .container_menu {
   position: absolute;
   top: 60px;
-  right: -100vw;
+  left: -100vw;
   /* top: 0; */
   /* width: 100%; */
-  width: 750px;
+  width: 685px;
   height: 100vh;
   /*  background: #434343; */
   background: var(--white);
@@ -176,22 +201,91 @@ button.main-menu span {
   z-index: 2;
 }
 #btn_menu:checked ~ .container_flex .container_menu {
-  right: 0;
+  left: 0;
 }
-.login-register {
+
+/* MENU DESPLEGABLE ITEMS */
+.container_menu-total {
+  margin-top: 40px;
+}
+.container_menu-item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 20px;
+  padding-left: 20px;
+}
+/* .menu-item-product {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 0px;
+  width: 90%;
+} */
+.menu-item-product {
+  display: flex;
+  letter-spacing: 1px;
+  /* width: 70%; */
+  width: 50%;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.menu-item-product img {
+  border-radius: 50%;
+  max-width: 35px;
+  height: 35px;
+  margin-right: 16px;
+}
+.menu-item-next {
+  background-image: url(/img/svg/icon-next.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 16px;
+  display: block;
+  margin-left: 40px;
+}
+
+.container_menu-separa {
+  /* width: 80%; */
+  width: 60%;
+  margin-left: 25px;
+}
+
+/* .login-register {
   display: flex;
   gap: 130px;
   position: absolute;
   bottom: 60px;
-  /*  bottom: 0; */
+   bottom: 0;
   width: 100%;
   background: var(--tropical-rain-forest);
   height: 80px;
   padding: 30px;
   padding-left: 153px;
+} */
+.login-register {
+  display: flex;
+  position: relative;
+  bottom: -111px;
+  background: var(--tropical-rain-forest);
+  height: 75px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .login-register a {
   color: var(--white);
   font-weight: 700;
   letter-spacing: 3px;
+}
+.fin-encab-menu {
+  height: 50%;
 }

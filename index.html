@@ -32,7 +32,7 @@
                 PRODUCTOS</span>
         </a>
     </div>
-    <!-------------------------------- MODAL CARGAR PÁGINA -------------------------------------->
+    <!-------------------------------- MODAL CARGAR PÁGINA NEWSLETTER -------------------------------------->
     <div class="modal-newslet-completa">
         <input type="checkbox" id="cerrar">
         <label for="cerrar" id="btn-cerrar">X</label>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="newslet-politica">
                     <span>Echa un vistazo a nuestra&nbsp;</span>
-                    <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf">política de privacidad</a>
+                    <a href="#">política de privacidad</a>
                     <span>&nbsp;para saber más sobre el procesamiento de tus datos.&nbsp;</span>
                 </div>
                 <div class="newslet-politica-btn">
@@ -61,7 +61,8 @@
             </div>
         </div>
     </div>
-    <!-------------------------------- FIN MODAL CARGAR PÁGINA -------------------------------------->
+    <!-------------------------------- FIN MODAL CARGAR PÁGINA NEWSLETTER -------------------------------------->
+
     <!-------------------------------- ENCABEZADO -------------------------------------->
     <header>
         <div class="suscribete">
@@ -72,11 +73,16 @@
         <nav class="encabezado-completo" id="encabezado-completo">
             <div class="encabezado">
                 <div class="nombre-tienda">
-                    <img class="cyrcled-logo" src="/img/Logo.png" alt="Logo Cyrcled" />
+                    <a href="/index.html">
+                        <img class="cyrcled-logo" src="/img/Logo.png" alt="Logo Cyrcled" />
+                    </a>
+                </div>
+                <div class="encab-somos">
+                    <a href="/index-somos.html">Quiénes somos</a>
                 </div>
                 <div class="nav-icons">
-                    <input type="text" name="search" placeholder="Busca aquí tu producto" class="src"
-                        id="autocomplete-input" autocomplete="off" />
+                    <input type="text" name="search" placeholder="Buscar en Cyrcled" class="src" id="autocomplete-input"
+                        autocomplete="off" />
                     <a href="#" title="Lista de deseos">
                         <i class="fa-regular fa-heart fa-lg" alt="Lista de deseos"></i>
                     </a>
@@ -84,18 +90,12 @@
                     <a href="#" title="Carro de compra" class="principal-cartChart">
                         <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
                     </a>
-                    <a href="#" title="Mi cuenta">
+                    <a href="/index-loginPass.html" title="Mi cuenta">
                         <i class="fa-solid fa-circle-user" alt="Login"></i>
                     </a>
                 </div>
                 <!-------------------------------- PERSISTENT HEADER SCROLL -------------------------------------->
                 <div class="menu-appear">
-                    <div class="carro-compra-oculto">
-                        <div class="header__cart--notification-oculto">0</div>
-                        <a href="#" title="Carro compra" class="principal-cartChart-oculto">
-                            <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
-                        </a>
-                    </div>
                     <div class="movil">
                         <input type="checkbox" id="btn_menu">
                         <label for="btn_menu" class="btn_menu flex_column">
@@ -106,62 +106,94 @@
                         </label>
                         <div class="container_flex">
                             <nav class="container_menu flex_column">
-                                <ul class="container-list-elements">
-                                    <li><a href="#">inicio</a></li>
-                                    <li><a href="#">nosotros</a></li>
-                                    <li><a href="#">diseños</a></li>
-                                    <li><a href="#">contacto</a></li>
-                                </ul>
+                                <div class="container_menu-total">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Solares</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Cabello</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Facial</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Corporal</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Complementos alimenticios</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                </div>
                                 <ul class="login-register">
                                     <li><a href="#">Iniciar Sesión</a></li>
-                                    <hr>
+                                    <hr class="fin-encab-menu" />
                                     <li><a href="#">Regístrate</a></li>
                                 </ul>
                             </nav>
                         </div>
+                        <!-- <div class="overlay" id="overlay"></div> -->
                     </div>
-                    <!-- <button class="main-menu" type="button" title="menu">
-                        <i class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
-                                <path d="M4 11h12v2H4zm0-5h16v2H4zm0 12h7.235v-2H4z"></path>
-                            </svg></i>
-                        <span>Menú</span>
-                    </button> -->
+                    <div class="carro-compra-oculto">
+                        <div class="header__cart--notification-oculto">0</div>
+                        <a href="#" title="Carro compra" class="principal-cartChart-oculto">
+                            <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
+                        </a>
+                    </div>
                 </div>
                 <!-------------------------------- FIN PERSISTENT HEADER SCROLL -------------------------------------->
             </div>
-            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
-            <!-- <div id="modal-menu" class="modal-menu">
-                <button class="modal-menu-close">&times;</button>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#acerca">Acerca de</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </div> -->
-
-            <!-------------------------------- MODAL CANCELAR SUSCRIPCIÓN -------------------------------------->
         </nav>
-        <hr class="fin-encab" />
+        <div class="menu-encab-completo">
+            <ul class="menu-encab">
+                <li>
+                    <a href="#">Solares</a>
+                </li>
+                <li>
+                    <a href="#">Cabello</a>
+                </li>
+                <li>
+                    <a href="#">Facial</a>
+                </li>
+                <li>
+                    <a href="#">Corporal</a>
+                </li>
+                <li>
+                    <a href="#">Complementos alimenticios</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <hr class="fin-encab" /> -->
     </header>
     <!-------------------------------- FIN ENCABEZADO -------------------------------------->
 
     <!-------------------------------- SLIDER IMAGENES AUTO -------------------------------------->
+    <div class="secreto-dos">
+        <h1 class="secreto-dos-heading">
+            ¿Qué es Cyrcled?
+        </h1>
+        <p class="secreto-dos-subheading">Descubre Cyrcled®, ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium iusto in soluta aut odio facilis ullam eos tempora repudiandae voluptate sunt.
+        </p>
+        <div class="banner__buttons">
+            <a role="button" href="/index-somos.html" class="button-mas">¡QUIERO SABER MÁS!</a>
+        </div>
+    </div>
     <article class="juntas">
         <div class="imagen-detras">
-            <!-- <h1 class="secreto">
-                El secreto de un gran estilo <br />
-                es sentirte bien con lo que usas
-            </h1> -->
-            <div class="secreto-dos">
-                <h1 class="secreto-dos-heading">
-                    ¿Y si empiezas a cuidarte?
-                </h1>
-                <p class="secreto-dos-subheading">Descubre Cyrcled®, ipsum dolor sit amet consectetur adipisicing elit.
-                    Laudantium iusto in soluta aut odio facilis ullam eos tempora repudiandae voluptate sunt.
-                </p>
-            </div>
             <div id="carrusel-contenido">
                 <div id="carrusel-caja">
                     <div class="carrusel-elemento">
@@ -176,40 +208,44 @@
                 </div>
             </div>
     </article>
+    <!-- <hr class="fin-encab" /> -->
     <!-------------------------------- FIN SLIDER IMAGENES AUTO -------------------------------------->
 
-    <!-------------------------------- MENU SECCIONES -------------------------------------->
-    <div class="page-menu-encab">
-        <ul class="menu-encab">
-            <li>
-                <a href="#"><img src="/img/encabezado/cosmetica.jpg" alt="">
-                    <div class="card">Cosmética</div>
+    <!-------------------------------- MENU PARTNERS -------------------------------------->
+    <div class="page-menu-partner">
+        <!-- <div>
+            <h2 class="nov-semana">Partners</h2>
+        </div> -->
+        <ul class="menu-partner">
+            <li class="menu-partner-item">
+                <!-- <a href="#"><img src=" alt=""> -->
+                <div class="card">Partner 1</div>
                 </a>
             </li>
-            <li>
-                <a href="#"><img src="/img/encabezado/maquillaje.jpg" alt="">
-                    <div class="card">Maquillaje</div>
+            <li class="menu-partner-item">
+                <!-- <a href="#"><img src=" alt=""> -->
+                <div class="card">Partner 2</div>
                 </a>
             </li>
-            <li>
-                <a href="#"><img src="/img/encabezado/cabello.jpg" alt="">
-                    <div class="card">Cabello</div>
+            <li class="menu-partner-item">
+                <!-- <a href="#"><img src=" alt=""> -->
+                <div class="card">Partner 3</div>
                 </a>
             </li>
-            <li>
-                <a href="#"><img src="/img/encabezado/manos.jpg" alt="">
-                    <div class="card">Manos</div>
+            <li class="menu-partner-item">
+                <!-- <a href="#"><img src=" alt=""> -->
+                <div class="card">Partner 4</div>
                 </a>
             </li>
-            <li>
-                <a href="#"><img src="/img/encabezado/cuerpo.jpg" alt="">
-                    <div class="card">Cuerpo</div>
+            <li class="menu-partner-item">
+                <!-- <a href="#"><img src=" alt=""> -->
+                <div class="card">Partner 5</div>
                 </a>
             </li>
         </ul>
     </div>
     <!-- <hr class="fin-encab" />  -->
-    <!-------------------------------- FIN MENU SECCIONES -------------------------------------->
+    <!-------------------------------- FIN MENU PARTNERS -------------------------------------->
 
     <section class="global-sec">
         <section class="global-sec-nov">
@@ -454,11 +490,11 @@
                         <div>
                             <label class="container-policy">
                                 <input type="checkbox" required />
-                                Si continúas, aceptas la <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf"
-                                    title="Política de privacidad" target="_blank"> Política de Privacidad</a>
+                                Si continúas, aceptas la <a href="#" title="Política de privacidad" target="_blank">
+                                    Política de Privacidad</a>
                             </label>
                         </div>
-                        <div>
+                        <div class="form-submitBtn">
                             <input type="submit" value="Suscribirse" />
                             <p id="cancelar-suscri">¿Cómo cancelar la suscripción?</p>
                         </div>
@@ -511,7 +547,7 @@
                         <h5>Contacto</h5>
                         <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">
                             <i class="fa-solid fa-envelope"></i>
-                            <span>cyrcled@gmail.es</span>
+                            <span>info@cyrcled.es</span>
                         </a>
                     </div>
                     <div class="location-clic">
@@ -540,11 +576,9 @@
                             <a href="#" title="Condiciones de uso" target="_blank"><strong>CONDICIONES DE
                                     USO</strong></a>
                             |
-                            <a href="/assets/politicaPrivacidad/PoliticaPrivacidad.pdf" title="Política de privacidad"
-                                target="_blank">Política de privacidad</a>
+                            <a href="#" title="Política de privacidad" target="_blank">Política de privacidad</a>
                             |
-                            <a href="/assets/politicaPrivacidad/PoliticaCookies.pdf" title="Politica de cookies"
-                                target="_blank"><b>POLÍTICA DE COOKIES</b></a>
+                            <a href="#" title="Politica de cookies" target="_blank"><b>POLÍTICA DE COOKIES</b></a>
                             |
                             <a href="#" title="Condiciones de Compra" target="_blank">Términos y condiciones de
                                 compra</a>
@@ -553,9 +587,7 @@
                 </div>
                 <div class="col-md-4">
                     <p>
-                        Made with <i class="fa fa-heart"></i> by
-                        <a href="https://github.com/David-Subiela" target="_blank">David</a>
-                        <i class="fa-regular fa-copyright"></i> 2023
+                        Copyright <i class="fa-regular fa-copyright"></i>Cyrcled. Todos los derechos reservados 2023.
                     </p>
                 </div>
             </div>

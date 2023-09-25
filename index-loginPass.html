@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-footer.css" />
+    <link rel="stylesheet" href="/style-whatsYflecha.css" />
+    <link rel="stylesheet" href="/style-cart.css" />
+    <link rel="stylesheet" href="/style-aboutUs.css">
+    <link rel="stylesheet" href="/style-form.css">
+    <link rel="stylesheet" href="/style-responsive-loginPass.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cyrcled - Login/Register</title>
+</head>
+
+<body>
+    <div class="flecha-arriba">
+        <img src="/img/flecha.png" alt="flecha" />
+    </div>
+    <div class="btn-whatsApp">
+        <a href="https://api.whatsapp.com/send?phone=+" class="btn-whatsApp" id="tooltip" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i><span class="tooltip-box">Contáctanos para conocer MÁS SOBRE NUESTROS
+                PRODUCTOS</span>
+        </a>
+    </div>
+    <!-------------------------------- ENCABEZADO -------------------------------------->
+    <header>
+        <div class="suscribete">
+            <ul class="slide-text">Gastos de envío gratis a partir de 45€</ul>
+            <ul class="slide-text">Inicia sesión como socio/a y disfruta de las ventajas</ul>
+            <ul class="slide-text">Consigue un 10% de decuento extra. Suscríbete a la newsletter</ul>
+        </div>
+        <nav class="encabezado-completo" id="encabezado-completo">
+            <div class="encabezado">
+                <div class="nombre-tienda">
+                    <a href="/index.html">
+                        <img class="cyrcled-logo" src="/img/Logo.png" alt="Logo Cyrcled" />
+                    </a>
+                </div>
+                <div class="nav-icons">
+                    <input type="text" name="search" placeholder="Buscar en Cyrcled" class="src" id="autocomplete-input"
+                        autocomplete="off" />
+                    <a href="#" title="Lista de deseos">
+                        <i class="fa-regular fa-heart fa-lg" alt="Lista de deseos"></i>
+                    </a>
+                    <div class="header__cart--notification-aboutUs">0</div>
+                    <a href="#" title="Carro de compra" class="principal-cartChart">
+                        <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
+                    </a>
+                    <a href="/index-loginPass.html" title="Mi cuenta">
+                        <i class="fa-solid fa-circle-user" alt="Login"></i>
+                    </a>
+                </div>
+                <!-------------------------------- PERSISTENT HEADER SCROLL -------------------------------------->
+                <div class="menu-appear">
+                    <div class="movil">
+                        <input type="checkbox" id="btn_menu">
+                        <label for="btn_menu" class="btn_menu flex_column">
+                            <span id="btn_span_1" class="btn_span"></span>
+                            <span id="btn_span_2" class="btn_span"></span>
+                            <span id="btn_span_3" class="btn_span"></span>
+                            <span class="menu-text">Menú</span>
+                        </label>
+                        <div class="container_flex">
+                            <nav class="container_menu flex_column">
+                                <div class="container_menu-total">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Solares</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Cabello</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Facial</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Corporal</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                    <div class="container_menu-item">
+                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
+                                                alt="">Complementos alimenticios</a>
+                                        <a href="#"><i class="menu-item-next"></i></a>
+                                    </div>
+                                    <hr class="container_menu-separa">
+                                </div>
+                                <ul class="login-register">
+                                    <li><a href="#">Iniciar Sesión</a></li>
+                                    <hr class="fin-encab-menu" />
+                                    <li><a href="#">Regístrate</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="carro-compra-oculto">
+                        <div class="header__cart--notification-oculto-aboutUs">0</div>
+                        <a href="#" title="Carro compra" class="principal-cartChart-oculto">
+                            <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-------------------------------- FIN PERSISTENT HEADER SCROLL -------------------------------------->
+            </div>
+        </nav>
+        <div class="menu-encab-completo">
+            <ul class="menu-encab">
+                <li>
+                    <a href="#">Solares</a>
+                </li>
+                <li>
+                    <a href="#">Cabello</a>
+                </li>
+                <li>
+                    <a href="#">Facial</a>
+                </li>
+                <li>
+                    <a href="#">Corporal</a>
+                </li>
+                <li>
+                    <a href="#">Complementos alimenticios</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <hr class="fin-encab" /> -->
+    </header>
+    <!-------------------------------- FIN ENCABEZADO -------------------------------------->
+
+    <!-------------------------------- LOGIN / REGISTRO -------------------------------------->
+
+    <section class="formularios">
+        <div class="account-page">
+            <div class="toggle-menu">
+                <div id="btn" class="btn-left"></div>
+                <button type="button" class="toggle-btn-register" data-action="toggle-recover-form">Regístrate</button>
+                <button type="button" class="toggle-btn-session" data-action="toggle-recover-form-login">Iniciar
+                    sesión</button>
+            </div>
+            <div class="form-regses">
+                <!-------------------------------- INICIAR SESIÓN -------------------------------------->
+                <form action="#" method="POST" class="ini-session">
+                    <div class="email">
+                        <input type="email" name="email" id="signin-email" placeholder="Email*" required />
+                    </div>
+                    <div class="contraseña">
+                        <input type="password" name="signin-password" id="signin-password" placeholder="Contraseña*"
+                            autocomplete="off" required />
+                    </div>
+                    <div class="accept-register">
+                        <input class="accept-register" type="submit" value="INICIAR SESIÓN" />
+                        <a href="#ini-session-contra">
+                            <p class="pass-remain">¿Has olvidado tu contraseña?</p>
+                        </a>
+                    </div>
+                </form>
+                <!-------------------------------- FIN -- INICIAR SESIÓN -------------------------------------->
+
+                <!-------------------------------- INICIAR SESIÓN -- OLVIDO CONTRASEÑA -------------------------------------->
+                <form action="#" method="POST" class="ini-session-contra">
+                    <div class="email">
+                        <p>Escribe tu email y te mandaremos un correo con las instrucciones a seguir para restablecer tu
+                            contraseña</p>
+                        <input type="email" name="email" id="signin-out-email" placeholder="Email*" required />
+                    </div>
+                    <div class="accept-register">
+                        <input class="accept-register" type="submit" value="RESTABLECER CONTRASEÑA" />
+                    </div>
+
+                </form>
+                <!-------------------------------- FIN -- INICIAR SESIÓN -- OLVIDO CONTRASEÑA -------------------------------------->
+
+                <!-------------------------------- REGISTRO -------------------------------------->
+                <form action="#" method="POST" class="ini-register" id="ini-register">
+                    <h2 class="section-title">REGÍSTRATE USANDO TU DIRECCIÓN DE EMAIL</h2>
+                    <div class="name">
+                        <input type="text" name="name" id="signup-name" placeholder="Nombre" />
+                    </div>
+                    <div class="apellido">
+                        <input type="text" name="apellido" id="signup-apellido" placeholder="Apellido" />
+                    </div>
+                    <div class="email">
+                        <input type="email" name="email" id="signup-email" placeholder="Email*" required />
+                    </div>
+                    <div class="contraseña">
+                        <input type="password" name="password" id="signup-password" placeholder="Contraseña*"
+                            autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+                            title="Escribe mínimo 10 caracteres. Entre ellos, al menos 1 número, 1 letra y 1 mayúscula."
+                            required />
+                        <p class="pass-explain">Debe tener 10 caracteres mínimo</p>
+                    </div>
+                    <div class="accept-register">
+                        <label class="form-privacity">
+                            <input type="checkbox" />
+                            Si continúas, aceptas la
+                            <a href="" title="Política de privacidad" target="_blank"> Política de Privacidad</a>
+                        </label>
+                        <input class="accept-register" type="submit" value="¡ÚNETE A CYRCLED!" />
+                    </div>
+                </form>
+                <!-------------------------------- FIN -- REGISTRO -------------------------------------->
+            </div>
+        </div>
+    </section>
+    <!-------------------------------- FIN LOGIN / REGISTRO -------------------------------------->
+
+
+    <!-------------------------------- FOOTER -------------------------------------->
+
+    <footer>
+        <div class="seccion-destino-footer">
+            <div class="footer-clic">
+                <div class="siguenos">
+                    <h5>Síguenos</h5>
+                    <a href="https://es-es.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <div class="nombre-tienda">
+                        <img class="cyrcled-logo-foot" src="/img/Logo.png" alt="Logo Cyrcled" />
+                    </div>
+                </div>
+                <div class="location-clic">
+                    <h5>Contacto</h5>
+                    <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@cyrcled.es</span>
+                    </a>
+                </div>
+                <div class="location-clic">
+                    <h5>Metodos de pago</h5>
+                    <div class="metodos-pago">
+                        <a href="#">
+                            <i class="fa-brands fa-cc-visa"></i><span class="pay-icon">Visa</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-cc-mastercard"></i><span class="pay-icon">Master Card</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-paypal"></i><span class="paypal-icon">PayPal</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-gift"></i><span class="pay-icon">Tarjeta regalo</span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer_bottom">
+                    <hr class="separa-encab" />
+                    <div class="condiciones-politicas">
+                        <a href="#" title="Condiciones de uso" target="_blank"><strong>CONDICIONES DE
+                                USO</strong></a>
+                        |
+                        <a href="#" title="Política de privacidad" target="_blank">Política de privacidad</a>
+                        |
+                        <a href="#" title="Politica de cookies" target="_blank"><b>POLÍTICA DE COOKIES</b></a>
+                        |
+                        <a href="#" title="Condiciones de Compra" target="_blank">Términos y condiciones de
+                            compra</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Copyright <i class="fa-regular fa-copyright"></i>Cyrcled. Todos los derechos reservados 2023.
+                </p>
+            </div>
+        </div>
+    </footer>
+    </section>
+    <!-------------------------------- FIN FOOTER -------------------------------------->
+
+    <script src="/script.js"></script>
+    <script src="/script-favheartVermas.js"></script>
+    <script src="/script-persistHeader.js"></script>
+    <script src="/script-cookies.js"></script>
+    <script src="/script-loginRegister.js"></script>
+</body>
+
+</html>

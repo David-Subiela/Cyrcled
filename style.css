@@ -105,13 +105,51 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 /* LOGO */
 .cyrcled-logo {
   width: 150px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+.encab-somos a {
+  color: var(--black);
+}
+
+/* CATEGORIAS */
+.menu-encab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--endeavour);
+  padding: 13px;
+}
+.menu-encab li {
+  text-transform: uppercase;
+  padding-left: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #828282;
+}
+
+/* Subrayado animado anchor (a): */
+.menu-encab a {
+  color: var(--white);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+/* Subrayado animado anchor (a), al pasar por encima: */
+.menu-encab li a:hover,
+.menu-encab li a:focus {
+  background-size: 100% 2px;
 }
 
 .nav-icons {
@@ -167,23 +205,23 @@ input[type="text"] {
   border-radius: 16px;
   position: absolute;
   top: 50px;
-  right: 120px;
+  right: 86px;
   font-size: 0.6em;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
 }
 
-.menu-encab {
+/* .menu-encab {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 50px;
   margin-top: 30px;
-  /* margin-top: 15px; */
+  margin-top: 15px;
 }
 .menu-encab a {
   text-align: center;
-  /* margin: 0 13px 24px 13px; */
+  margin: 0 13px 24px 13px;
   font-size: 14px;
   font-weight: 700;
   font-stretch: normal;
@@ -195,13 +233,13 @@ input[type="text"] {
 .menu-encab img {
   width: 120px;
   height: 120px;
-  /*  width: 75px;
-  height: 75px; */
+   width: 75px;
+  height: 75px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 10px;
   box-shadow: 1px 1px 6px 6px var(--bondie-blue);
-}
+} */
 
 .card {
   position: relative;
@@ -214,11 +252,52 @@ input[type="text"] {
   min-height: 35px; */
 }
 
+/* ESCRITO ENCIMA IMAGEN */
+.secreto-dos {
+  position: absolute;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 50px;
+  /* background: rgba(0, 0, 0, 0.57); */
+  color: var(--white);
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.secreto-dos-heading {
+  max-width: 25rem;
+  font-size: 47px;
+}
+.secreto-dos-subheading {
+  max-width: 25rem;
+  font-size: 18px;
+  /*   margin-bottom: 4rem; */
+  margin-top: 2rem;
+}
+.banner__buttons {
+  margin-left: 50px;
+}
+.button-mas {
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  background-color: var(--white);
+  color: var(--black);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 700;
+  line-height: 0.8rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 150px;
+}
+
 /* TEXTO ENCIMA SLIDER */
 .imagen-detras {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  filter: brightness(50%);
   /* filter: brightness(50%); */
   /*  --opacidad-negro: 0.5;
   background: linear-gradient(
@@ -233,26 +312,6 @@ input[type="text"] {
   /* padding-bottom: 0px; */
   border-radius: 10px;
   text-align: center;
-}
-.secreto-dos {
-  position: absolute;
-  font-size: 50px;
-  font-weight: 700;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.57);
-  color: var(--ligth-blue);
-  margin-left: 55px;
-}
-
-.secreto-dos-heading {
-  max-width: 20rem;
-  font-size: 47px;
-}
-.secreto-dos-subheading {
-  max-width: 20rem;
-  font-size: 18px;
-  /*   margin-bottom: 4rem; */
-  margin-top: 2rem;
 }
 
 /* CREAR SLIDER DE IMAGENES AUTOMATICO: */
@@ -294,13 +353,27 @@ input[type="text"] {
 
 .imagenes {
   /* height: 526px; */
-  height: 365px;
+  /*  height: 365px; */
+  height: 350px;
   width: 100%;
   object-fit: cover;
 }
 .carrusel-elemento {
   float: left;
   width: 33.333%;
+}
+
+/* MENU PARTNERS */
+.menu-partner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin-top: 10px;
+}
+.menu-partner-item {
+  border: 3px solid gray;
+  padding: 40px;
+  font-weight: 700;
 }
 
 /* NOVEDADES */

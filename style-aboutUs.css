@@ -1,0 +1,65 @@
+/* NOTIFICACIÓN CANTIDAD DE PRODUCTOS CARRITO */
+.header__cart--notification-aboutUs {
+  /* display: none; */
+  background-color: var(--cerulean);
+  width: 15px;
+  height: 12px;
+  border-radius: 16px;
+  position: absolute;
+  top: 50px;
+  right: 125px;
+  font-size: 0.6em;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+
+/* ABOUT US PRINCIPAL */
+.aboutUs-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bondie-blue);
+}
+.aboutus-title {
+  color: var(--white);
+  margin: 55px 0px 54px 0px;
+  line-height: 4.2rem;
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.aboutus-subtitle {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  color: var(--white);
+  line-height: 2.2rem;
+}
+
+/* ABOUT US SECUNDARIOS */
+.aboutUs-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.aboutus-title-secondary {
+  margin: 55px 0px 54px 0px;
+  line-height: 4.2rem;
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.aboutus-subtitle-secondary {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  line-height: 2.2rem;
+  padding-bottom: 20px;
+}
+
+.separa-aboutUs {
+  border: 1px solid;
+  border-color: var(--endeavour);
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}

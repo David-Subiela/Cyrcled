@@ -1,0 +1,176 @@
+.section-title {
+  margin-bottom: 30px;
+}
+.formularios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+}
+.form-regses {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.account-page {
+  background-color: #fff;
+  min-height: 43.75rem;
+  max-width: 40.25rem;
+  box-shadow: 0 0 5px 5px #0000001a;
+  border-radius: 6px;
+  margin: 2.1rem;
+}
+.pass-explain {
+  color: rgb(148, 148, 148);
+  font-size: 13px;
+  padding-bottom: 35px;
+  padding-top: 7px;
+}
+.pass-remain {
+  color: var(--black);
+  font-size: 17px;
+  text-align: center;
+}
+.accept-register {
+  padding: 20px 10px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+/* TOGGLE BUTTONS */
+.toggle-menu {
+  margin: 1rem;
+  border-radius: 30px;
+  padding: 5px;
+  background: #f6f6f6;
+  position: relative;
+}
+.toggle-menu #btn {
+  position: absolute;
+  top: 10%;
+  transform: translate(96%);
+  width: 50%;
+  height: 80%;
+  border-radius: 30px;
+  transition: 0.3s all ease;
+}
+.toggle-menu .toggle-btn-register,
+.toggle-btn-session {
+  border-radius: 30px;
+  padding: 0.825rem 5.5rem 0.625rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+/* CLASE PARA CAMBIAR EL COLOR DEL BACKGROUND DEL TOGGLE SWITCH */
+.toggle-btn-active {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* INPUTS */
+input[type="email"],
+input[type="password"] {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid var(--bondie-blue);
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+}
+input#signup-email,
+input#signup-name,
+input#signup-apellido,
+input#signup-password {
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px var(--light-blue);
+  outline: 0 none;
+  border-radius: 10px;
+  width: 100%;
+}
+input#signup-password {
+  margin: 0;
+}
+.email,
+.name,
+.apellido,
+.password {
+  margin-bottom: 10px;
+}
+input#signup-email:focus,
+input#signup-name:focus,
+input#signup-apellido:focus,
+input#signup-password:focus {
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px var(--bondie-blue);
+  outline: 0 none;
+}
+
+/* ------------------- INICIAR SESIÓN  ------------------- */
+
+.ini-session {
+  display: none;
+  width: 75%;
+  padding-top: 40px;
+  animation: modal-newslet 0.3s 0.5s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* ------------------- RESTABLECER CONTRASEÑA  ------------------- */
+.ini-session-contra {
+  display: none;
+  width: 75%;
+  padding-top: 40px;
+  max-width: 33.25rem;
+  animation: modal-newslet 0.3s 0.5s forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+.ini-session-contra p {
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+/* ------------------- REGISTRO  ------------------- */
+.ini-register {
+  width: 75%;
+  /* display: none; */
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  display: block;
+  padding: 13px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #444;
+  width: 100%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 25px 0;
+  border-radius: 10px;
+}
+input[type="submit"]:hover {
+  background-color: var(--cerulean);
+  color: var(--black);
+}
+
+@keyframes modal-newslet {
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
