@@ -178,7 +178,7 @@
 /* RESPONSIVE 834PX */
 /* --------------------------------------------------------- */
 
-@media only screen and (min-width: 801px) and (max-width: 834px) {
+@media only screen and (max-width: 834px) {
   /* NEWSLETTER */
   .contenido {
     width: 65%;
@@ -366,7 +366,7 @@
 /* RESPONSIVE 800PX */
 /* --------------------------------------------------------- */
 
-@media only screen and (min-width: 429px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   /* NEWSLETTER */
   .contenido {
     width: 65%;
@@ -552,7 +552,7 @@
 /* RESPONSIVE 428PX */
 /* --------------------------------------------------------- */
 
-@media only screen and (min-width: 415px) and (max-width: 428px) {
+@media only screen and (max-width: 428px) {
   /* FLECHA ARRIBA */
   .flecha-arriba {
     width: 30px;
@@ -711,7 +711,7 @@
 /* --------------------------------------------------------- */
 /* RESPONSIVE 414PX */
 /* --------------------------------------------------------- */
-@media only screen and (min-width: 391px) and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   .nav-icons {
     gap: 11px;
   }
@@ -732,7 +732,7 @@
 /* RESPONSIVE 390PX */
 /* --------------------------------------------------------- */
 
-@media only screen and (min-width: 361px) and (max-width: 390px) {
+@media only screen and (max-width: 390px) {
   /* ENCABEZADO */
 
   .suscribete {
