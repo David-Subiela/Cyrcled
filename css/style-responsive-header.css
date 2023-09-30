@@ -1,0 +1,1359 @@
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1920PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1920px) {
+  #header {
+    height: 130px;
+  }
+  .cyrcled-logo {
+    width: 160px;
+    margin-left: 85px;
+    margin-bottom: 5px;
+  }
+  input#autocomplete-input {
+    width: 610px;
+  }
+  input[type="text"] {
+    padding: 10px;
+  }
+  input.src {
+    margin-right: 155px;
+    margin-left: 80px;
+  }
+  .encab-somosInput {
+    gap: 215px;
+    align-items: flex-start;
+  }
+  .encab-somos a {
+    padding-left: 25px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .nav-icons {
+    gap: 35px;
+    padding: inherit;
+    margin-right: 100px;
+  }
+  .nav-icons a {
+    font-size: 30px;
+  }
+  .menu-encab {
+    margin-top: 0px;
+    gap: 100px;
+    padding: 20px;
+  }
+  .menu-encab li {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1650PX */
+/* --------------------------------------------------------- */
+@media screen and (max-width: 1650px) {
+  #header {
+    height: 115px;
+  }
+  .cyrcled-logo {
+    width: 160px;
+    margin-left: 85px;
+    margin-bottom: 5px;
+  }
+  input#autocomplete-input {
+    width: 610px;
+  }
+  input[type="text"] {
+    padding: 10px;
+  }
+  input.src {
+    margin-right: 155px;
+    margin-left: 80px;
+  }
+  .encab-somosInput {
+    gap: 150px;
+    align-items: flex-start;
+  }
+  .encab-somos a {
+    padding-left: 45px;
+    position: absolute;
+    font-size: 18px;
+    padding-top: 9px;
+  }
+  .nav-icons {
+    gap: 35px;
+    padding: inherit;
+    margin-right: 100px;
+  }
+  .nav-icons a {
+    font-size: 30px;
+  }
+  .menu-encab {
+    margin-top: -5px;
+    gap: 95px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+  }
+  .menu-encab li {
+    padding-left: 25px;
+    font-size: 16px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1330px) {
+  #header {
+    height: 120px;
+  }
+  .cyrcled-logo {
+    width: 145px;
+    margin-left: 110px;
+  }
+  .nav-icons {
+    gap: 30px;
+    padding: inherit;
+    margin-right: 115px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1315PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1315px) {
+  input#autocomplete-input {
+    width: 535px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1240PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1240px) {
+  input#autocomplete-input {
+    width: 505px;
+  }
+  .menu-encab li {
+    font-size: 16px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1205PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1205px) {
+  .cyrcled-logo {
+    margin-left: 5px;
+  }
+  .encab-somosInput {
+    gap: 55px;
+  }
+  input#autocomplete-input {
+    width: 450px;
+  }
+  .encab-somos a {
+    padding-left: 8px;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  input.src {
+    margin-right: 100px;
+  }
+  .nav-icons a {
+    font-size: 25px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1181PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1181px) {
+  input#autocomplete-input {
+    width: 275px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1040PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1040px) {
+  .contenido {
+    right: 345px;
+  }
+  .contenido h2 {
+    font-size: 32px;
+  }
+  #cerrar + label {
+    right: 332px;
+  }
+  .menu-encab {
+    gap: 80px;
+  }
+  .menu-encab li {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1008PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1008px) {
+  .contenido h2 {
+    font-size: 30px;
+  }
+  .accept-newslet input {
+    font-size: 18px;
+    height: 45px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 915PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 915px) {
+  .cyrcled-logo {
+    margin-left: 50px;
+  }
+  input#autocomplete-input {
+    width: 285px;
+  }
+  input.src {
+    margin-right: 75px;
+  }
+  .menu-encab {
+    gap: 40px;
+  }
+  .contenido h2 {
+    font-size: 28px;
+  }
+  .contenido {
+    right: 315px;
+  }
+  #cerrar + label {
+    right: 302px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 870PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 870px) {
+  .encab-somosInput {
+    gap: 30px;
+  }
+  .menu-encab {
+    gap: 30px;
+  }
+  .cyrcled-logo {
+    width: 140px;
+  }
+  input.src {
+    margin-right: 45px;
+  }
+  .encab-somos a {
+    padding-left: 0px;
+    font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 795PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 795px) {
+  .menu-encab {
+    gap: 20px;
+  }
+  input.src {
+    margin-right: 30px;
+  }
+  .encab-somosInput {
+    gap: 20px;
+  }
+  .encab-somos a {
+    font-size: 14px;
+  }
+  .nav-icons {
+    gap: 22px;
+    margin-right: 55px;
+  }
+  .nav-icons a {
+    font-size: 22px;
+  }
+  .contenido {
+    right: 270px;
+    height: 68%;
+  }
+  #cerrar + label {
+    right: 256px;
+  }
+  .contenido h2 {
+    font-size: 24px;
+  }
+  .contenido h4 {
+    font-size: 15px;
+  }
+  input#email-newslet {
+    font-size: 14px;
+    height: 40px;
+  }
+  .accept-newslet input {
+    font-size: 16px;
+    height: 40px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 775PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 775px) {
+  .cyrcled-logo {
+    margin-left: -30px;
+    width: 130px;
+  }
+  .encab-somosInput {
+    gap: 40px;
+  }
+  input#autocomplete-input {
+    width: 175px;
+    height: 30px;
+  }
+  .menu-encab li {
+    font-size: 13px;
+  }
+  input.src {
+    margin-right: 20px;
+  }
+  .nav-icons a {
+    font-size: 20px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 700PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+  #header {
+    height: 95px;
+  }
+  .menu-encab-completo nav {
+    position: fixed;
+    top: 0;
+    left: -375px;
+    /* background: white; */
+    background: var(--ligth-blue);
+    width: 375px;
+    height: 100vh;
+    padding: 25px;
+    z-index: 1;
+    transition: all 300ms;
+  }
+  .menu-encab-completo ul {
+    flex-direction: column;
+    /* margin-top: 40px; */
+  }
+  .menu-encab {
+    /* background-color: var(--white); */
+    background: var(--ligth-blue);
+    padding: 0px;
+    gap: 0px;
+    align-items: normal;
+    justify-content: normal;
+  }
+  .menu-encab-completo ul li {
+    /*  margin-top: 10px;
+      margin-left: -55px; */
+    border-bottom: 1px solid var(--endeavour);
+    padding: 4px 16px;
+    line-height: 15px;
+    width: 85%;
+  }
+  .menu-encab-completo ul li a {
+    /* color: #bebebe; */
+    color: var(--black);
+  }
+  .menu-encab li a:hover,
+  .menu-encab li a:focus {
+    background-size: 0% 0px;
+  }
+
+  #back_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1;
+  }
+
+  .encabezado #btn_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 300ms;
+    /*  margin-left: 50px; */
+  }
+  .encabezado #btn_menu:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .menu-text {
+    display: block;
+    letter-spacing: 1.08px;
+    color: #1a051d;
+    padding-right: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    top: 19px;
+    right: 61px;
+  }
+
+  /* MENU ENCABEZADO DESPLEGABLE */
+  .container_menu-item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  .menu-item-product {
+    display: flex;
+    letter-spacing: 1px;
+    width: 50%;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--black);
+    font-size: 12px;
+  }
+  .menu-item-product img {
+    display: block;
+    border-radius: 50%;
+    max-width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+  .menu-item-next {
+    background-image: url(/img/svg/icon-next.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-left: 95px;
+  }
+
+  .cyrcled-logo {
+    width: 110px;
+    margin-left: -60px;
+    margin-top: 7px;
+  }
+  .cyrcled-logo-menu {
+    display: block;
+    width: 110px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  input.src {
+    font-size: 13px;
+  }
+  input#autocomplete-input {
+    height: 30px;
+  }
+  .nav-icons {
+    gap: 20px;
+  }
+  .nav-icons a {
+    font-size: 22px;
+  }
+  .encab-somos {
+    margin-bottom: 37px;
+  }
+
+  .menu-encab-completo nav a .cyrcled-logo {
+    display: block;
+    width: 90px;
+  }
+  .encab-somos a {
+    font-size: 15px;
+  }
+  .encab-somosInput {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  input.src {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  /* -------------------------------- style-cart ----------------*/
+  .login-register {
+    display: flex;
+    position: relative;
+    bottom: -72px;
+    background: var(--tropical-rain-forest);
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row !important;
+    width: 375px;
+    right: 25px;
+    font-size: 15px;
+  }
+  .login-register a {
+    color: var(--white) !important;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .fin-encab-menu {
+    height: 50%;
+  }
+  .login-register-bottom {
+    border-bottom: none !important;
+  }
+  .login-register-bottom a {
+    padding-left: 15px;
+  }
+  .contenido {
+    right: 230px;
+    height: 66%;
+  }
+  .contenido h2 {
+    font-size: 22px;
+  }
+  #cerrar + label {
+    right: 218px;
+    font-size: 16px;
+  }
+  .contenido h4 {
+    font-size: 13px;
+  }
+  input#email-newslet {
+    font-size: 12px;
+    height: 38px;
+  }
+  .newslet-politica-btn button {
+    font-size: 11px;
+    padding-top: 28px;
+  }
+  .accept-newslet input {
+    font-size: 15px;
+    height: 35px;
+  }
+  .accept-newslet input {
+    width: 78%;
+    margin-left: 31px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 694PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 694px) {
+  .menu-text {
+    right: 64px;
+  }
+  .cyrcled-logo {
+    width: 90px;
+    margin-left: -60px;
+  }
+  .encab-somos {
+    padding-bottom: 15px;
+  }
+  .encab-somos a {
+    font-size: 13px;
+    padding-top: 19px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 665PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 665px) {
+  .menu-text {
+    right: 58px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 645PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 645px) {
+  .encabezado {
+    margin-left: 7px;
+  }
+  .encabezado #btn_menu {
+    justify-content: space-between;
+  }
+  .menu-text {
+    right: 72px;
+  }
+  .cyrcled-logo {
+    width: 80px;
+    margin-left: -80px;
+  }
+  .menu-encab-completo nav {
+    left: -335px;
+    width: 335px;
+  }
+  .cyrcled-logo-menu {
+    width: 90px;
+  }
+  .menu-encab-completo ul li {
+    padding: 0px 0px;
+    width: 85%;
+  }
+  .menu-item-product {
+    font-size: 11px;
+  }
+  .menu-item-next {
+    margin-left: 70px;
+  }
+  .login-register {
+    width: 343px;
+    font-size: 12px;
+    bottom: -120px;
+  }
+  .login-register-bottom a {
+    padding-left: 30px;
+  }
+  .contenido {
+    height: 57%;
+    width: 43%;
+    right: 200px;
+  }
+  .contenido h2 {
+    font-size: 18px;
+  }
+  .contenido h4 {
+    font-size: 11px;
+  }
+  #cerrar + label {
+    right: 185px;
+  }
+  .email-newslet {
+    margin-top: 25px;
+    margin-left: 27px;
+  }
+  input#email-newslet {
+    font-size: 11px;
+    height: 32px;
+  }
+  .accept-newslet input {
+    font-size: 13px;
+    height: 30px;
+    width: 73%;
+  }
+  .newslet-politica {
+    font-size: 9px;
+    width: 75%;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 626PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 626px) {
+  /* ENCABEZADO */
+  #header {
+    height: 95px;
+  }
+  .suscribete {
+    font-size: 0.65rem;
+  }
+  .encab-somosInput {
+    gap: 20px;
+  }
+  .encab-somos a {
+    font-size: 12px;
+  }
+  input#autocomplete-input {
+    width: 155px;
+  }
+  input.src {
+    font-size: 12px;
+  }
+  .nav-icons {
+    gap: 15px;
+  }
+  .nav-icons a {
+    font-size: 20px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 606PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 606px) {
+  .menu-text {
+    right: 73px;
+  }
+  .encabezado #btn_menu {
+    margin-left: 5px;
+  }
+  .menu-encab-completo nav {
+    width: 315px;
+  }
+  .login-register {
+    width: 325px;
+  }
+  .menu-item-next {
+    margin-left: 80px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 584PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 584px) {
+  .encabezado {
+    margin-left: 0px;
+  }
+  .menu-text {
+    right: 63px;
+    font-size: 10px;
+  }
+  .cyrcled-logo {
+    margin-left: -67px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 560PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 560px) {
+  /* ENCABEZADO */
+  .encab-somosInput {
+    gap: 10px;
+  }
+  .cyrcled-logo {
+    width: 90px;
+  }
+  .nav-icons {
+    gap: 12px;
+    margin-right: 25px;
+  }
+  .nav-icons a {
+    font-size: 17px;
+  }
+  .menu-text {
+    right: 70px;
+    font-size: 11px;
+  }
+  .encabezado #btn_menu {
+    margin-left: 10px;
+  }
+  .menu-text {
+    right: 67px;
+    font-size: 10px;
+  }
+  .cyrcled-logo {
+    margin-left: -65px;
+  }
+
+  input.src {
+    margin-right: 3px;
+  }
+  .menu-item-product {
+    font-size: 10px;
+  }
+  .menu-encab-completo nav {
+    width: 275px;
+  }
+  .login-register {
+    width: 283px;
+  }
+  .login-register a {
+    letter-spacing: 2px;
+  }
+  .login-register-bottom a {
+    padding-left: 23px;
+    font-size: 11px;
+  }
+  .contenido {
+    right: 153px;
+    top: 130px;
+  }
+  #cerrar + label {
+    right: 135px;
+    top: 130px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 530PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 530px) {
+  .menu-text {
+    right: 63px;
+  }
+  .cyrcled-logo {
+    width: 75px;
+  }
+  .nav-icons {
+    margin-right: 30px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 515PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 515px) {
+  /* ENCABEZADO */
+  .encab-somos a {
+    font-size: 11px;
+    padding-left: 0px;
+  }
+  input#autocomplete-input {
+    height: 25px;
+  }
+  .cyrcled-logo {
+    width: 75px;
+  }
+
+  /* MENU DESPLEGABLE */
+  .menu-encab-completo nav {
+    left: -250px;
+    width: 250px;
+  }
+  .menu-text {
+    padding-right: 0px;
+    font-size: 10px;
+    top: 17px;
+  }
+  .login-register {
+    width: 258px;
+  }
+  .login-register-bottom a {
+    padding-left: 20px;
+    font-size: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 500PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+  .btn-whatsApp {
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    font-size: 30px;
+  }
+  .menu-text {
+    right: 64px;
+  }
+  .cyrcled-logo {
+    width: 67px;
+  }
+  .menu-item-next {
+    margin-left: 85px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 465PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 465px) {
+  .contenido {
+    right: 125px;
+    top: 160px;
+    height: 50%;
+    width: 50%;
+  }
+  #cerrar + label {
+    right: 105px;
+    top: 155px;
+  }
+  .cyrcled-logo {
+    margin-left: -55px;
+  }
+  .nav-icons {
+    margin-right: 20px;
+  }
+  .encab-somos a {
+    padding-left: 7px;
+  }
+  .menu-text {
+    right: 58px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 463PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 463px) {
+  .contenido {
+    height: 56%;
+  }
+
+  .contenido h2 {
+    padding-top: 15px;
+  }
+  .contenido h4 {
+    padding-top: 12px;
+    font-size: 10px;
+  }
+  .email-newslet {
+    margin-top: 15px;
+  }
+  input#email-newslet {
+    margin-top: 15px;
+  }
+  .accept-newslet input {
+    font-size: 11px;
+    height: 28px;
+  }
+  .newslet-politica {
+    font-size: 8px;
+    width: 80%;
+    padding-top: 13px;
+  }
+  .newslet-politica-btn button {
+    font-size: 9px;
+    padding-top: 13px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 450PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 450px) {
+  .contenido {
+    height: 58%;
+  }
+  .cyrcled-logo {
+    margin-left: -51px;
+  }
+  .menu-text {
+    right: 54px;
+  }
+  .nav-icons {
+    margin-right: 16px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 440PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 440px) {
+  .nav-icons {
+    margin-right: 11px;
+    gap: 10px;
+  }
+  .nav-icons a {
+    font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 428PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 428px) {
+  #header {
+    height: 80px;
+  }
+  .suscribete {
+    font-size: 0.55rem;
+    padding: 0.8rem;
+  }
+  .nav-icons {
+    margin-right: 11px;
+    gap: 8px;
+  }
+  .nav-icons a {
+    font-size: 13px;
+  }
+  input#autocomplete-input {
+    height: 23px;
+  }
+  .encabezado #btn_menu {
+    font-size: 20px;
+  }
+  .menu-text {
+    right: 55px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 414PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 414px) {
+  .menu-text {
+    right: 58px;
+  }
+  .encabezado #btn_menu {
+    margin-left: 8px;
+  }
+  .cyrcled-logo {
+    width: 55px;
+  }
+  .encab-somos a {
+    font-size: 10px;
+  }
+  input.src {
+    font-size: 10px;
+    margin-right: 7px;
+  }
+  input#autocomplete-input {
+    width: 145px;
+  }
+}
+/* --------------------------------------------------------- */
+/* RESPONSIVE 402PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 402px) {
+  .contenido {
+    right: 100px;
+    top: 120px;
+  }
+  #cerrar + label {
+    right: 79px;
+    top: 115px;
+    font-size: 12px;
+  }
+  .menu-text {
+    right: 55px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 390PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  .suscribete {
+    font-size: 0.5rem;
+    padding: 0.75rem;
+  }
+  .cyrcled-logo {
+    width: 55px;
+    margin-right: 7px;
+  }
+  input#autocomplete-input {
+    height: 23px;
+    width: 123px;
+  }
+  .nav-icons a {
+    font-size: 12px;
+  }
+  .menu-text {
+    font-size: 9px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 378PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 378px) {
+  .menu-text {
+    right: 51px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 370PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 373px) {
+  .suscribete {
+    letter-spacing: 1.5px;
+  }
+  .nav-icons {
+    margin-right: 10px;
+  }
+  .encabezado #btn_menu {
+    font-size: 17px;
+  }
+  .menu-text {
+    right: 52px;
+    top: 12px;
+  }
+  .encab-somos a {
+    font-size: 9px;
+    padding-left: 11px;
+  }
+  .cyrcled-logo {
+    margin-right: 0px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 365PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 365px) {
+  input.src {
+    margin-right: 13px;
+  }
+  .encab-somosInput {
+    gap: 2px;
+  }
+  .encab-somos a {
+    padding-left: 14px;
+  }
+  .cyrcled-logo {
+    margin-right: -4px;
+  }
+  .menu-text {
+    right: 53px;
+    font-size: 8px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 360PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 360px) {
+  .encabezado {
+    justify-content: space-between;
+  }
+  .suscribete {
+    font-size: 0.45rem;
+    padding: 0.7rem;
+  }
+  .cyrcled-logo {
+    width: 55px;
+    margin-right: -17px;
+    margin-bottom: 0px;
+    margin-left: -38px;
+    margin-top: 13px;
+  }
+  .encab-input {
+    margin-bottom: 13px;
+  }
+  input.src {
+    background: var(--white) !important;
+    margin-right: 20px;
+  }
+  #autocomplete-input {
+    padding-left: 17px;
+    height: 20px;
+    width: 165px;
+  }
+  .encab-somosInput {
+    gap: 0px;
+    align-items: flex-end;
+    margin-left: -45px;
+    padding-left: 0px;
+  }
+  .encab-somos a {
+    padding-left: 0px;
+    padding-top: 7px;
+  }
+  .nav-icons {
+    margin-right: 15px;
+  }
+  .menu-text {
+    right: 56px;
+  }
+  .encabezado #btn_menu {
+    width: 45px;
+    margin-left: 20px;
+  }
+  .menu-encab-completo nav {
+    width: 195px;
+  }
+  .login-register {
+    width: 202px;
+    bottom: -160px;
+  }
+  .cyrcled-logo-menu {
+    margin-bottom: 10px;
+  }
+
+  .login-register-bottom a {
+    padding-left: 16px;
+    font-size: 8px;
+  }
+  .menu-encab-completo ul li {
+    width: 70%;
+  }
+  .container_menu-item {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .menu-item-product {
+    font-size: 8px;
+  }
+  .menu-item-product img {
+    max-width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  .menu-item-next {
+    margin-left: 60px;
+  }
+  .contenido {
+    height: 52%;
+  }
+  .contenido h2 {
+    font-size: 16px;
+  }
+  input#email-newslet {
+    margin-top: 5px;
+    font-size: 10px;
+    height: 28px;
+    width: 85%;
+    margin-bottom: 15px;
+  }
+  .accept-newslet input {
+    font-size: 10px;
+    height: 25px;
+    width: 67%;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 345PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 345px) {
+  .menu-text {
+    right: 52px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 335PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 335px) {
+  .encab-somos a {
+    padding-left: 16px;
+    font-size: 8px;
+  }
+  .menu-text {
+    right: 50px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 330px) {
+  .suscribete {
+    font-size: 0.4rem;
+    padding: 0.65rem;
+  }
+  .cyrcled-logo {
+    margin-top: 6px;
+  }
+  .menu-text {
+    right: 44px;
+  }
+  .contenido h4 {
+    font-size: 9px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 325PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 325px) {
+  .contenido h2 {
+    font-size: 14px;
+  }
+  .menu-text {
+    right: 40px;
+  }
+  .cyrcled-logo {
+    margin-top: 7px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 320PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+  .contenido {
+    height: 50%;
+    right: 85px;
+  }
+  #cerrar + label {
+    right: 62px;
+  }
+  .encabezado #btn_menu {
+    margin-left: 14px;
+  }
+  .encab-somos a {
+    padding-left: 19px;
+  }
+  .cyrcled-logo {
+    margin-left: -37px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 316PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 316px) {
+  #header {
+    height: 75px;
+  }
+  .menu-text {
+    right: 35px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 314PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 314px) {
+  .suscribete {
+    font-size: 0.35rem;
+    padding: 0.6rem;
+  }
+  input#autocomplete-input {
+    height: 20px;
+    width: 115px;
+  }
+  .menu-text {
+    right: 42px;
+  }
+}

@@ -1,0 +1,108 @@
+/* --------------------------------------------------------- */
+/* RESPONSIVE 765PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 765px) {
+  .account-page {
+    min-height: 31.25rem;
+    max-width: 31.25rem;
+  }
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 4.7rem 0.625rem;
+  }
+  .section-title {
+    font-size: 19px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 700PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+  .account-page {
+    min-height: 27.25rem;
+    max-width: 27.25rem;
+    margin: 2.8rem;
+  }
+  .form-regses {
+    margin-bottom: -10px;
+  }
+  .section-title {
+    font-size: 15px;
+  }
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 3.7rem 0.625rem;
+    font-size: 0.75rem;
+  }
+  .section-title {
+    font-size: 13px;
+  }
+  input#signup-email,
+  input#signup-name,
+  input#signup-apellido,
+  input#signup-password {
+    font-size: 12px;
+  }
+  .pass-explain {
+    font-size: 12px;
+  }
+  .accept-register {
+    margin-top: 10px;
+    padding: 15px 10px;
+  }
+  label.form-privacity {
+    font-size: 12px;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 4.5rem 0.625rem;
+  }
+  /* INICIAR SESION */
+  .ini-session {
+    padding-top: 15px;
+  }
+  .pass-remain {
+    font-size: 15px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 0.75rem;
+  }
+  input[type="password"] {
+    margin-bottom: 15px;
+  }
+  .ini-session-contra {
+    padding-top: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 626PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 626px) {
+  .account-page {
+    min-height: 24.25rem;
+    max-width: 24.25rem;
+  }
+
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2.7rem 0.625rem;
+  }
+
+  /* .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 2.7rem 0.625rem;
+    font-size: 0.7rem;
+  } */
+  .accept-register {
+    margin-top: 0px;
+  }
+  input.accept-register {
+    font-size: 11px;
+  }
+}

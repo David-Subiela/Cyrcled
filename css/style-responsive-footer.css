@@ -1,0 +1,105 @@
+/* --------------------------------------------------------- */
+/* RESPONSIVE 765PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 765px) {
+  .condiciones-politicas {
+    text-align: center;
+    font-size: 14px;
+  }
+  footer .col-md-4 {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 428PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 428px) {
+  .siguenos h5,
+  .location-clic h5 {
+    font-size: 17px;
+  }
+  .siguenos a {
+    font-size: 13px;
+  }
+  .cyrcled-logo-foot {
+    margin-top: 17px;
+  }
+  .location-clic,
+  .location-clic span {
+    font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 390PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  .siguenos h5,
+  .location-clic h5 {
+    font-size: 15px;
+  }
+  .siguenos a {
+    font-size: 11px;
+  }
+  .cyrcled-logo-foot {
+    margin-top: 17px;
+  }
+  .location-clic,
+  .location-clic span {
+    font-size: 14px;
+  }
+  .cyrcled-logo-foot {
+    width: 100px;
+  }
+  .condiciones-politicas {
+    font-size: 13px;
+  }
+  footer .col-md-4 {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 345PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 345px) {
+  .siguenos h5,
+  .location-clic h5 {
+    font-size: 13px;
+  }
+  .siguenos a {
+    font-size: 10px;
+  }
+  .location-clic,
+  .location-clic span {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 330px) {
+  .condiciones-politicas {
+    font-size: 11px;
+  }
+  footer .col-md-4 {
+    font-size: 11px;
+  }
+  .metodos-pago {
+    padding-left: 5px;
+  }
+  span.pay-icon {
+    margin-left: 7px;
+  }
+  span.paypal-icon {
+    margin-left: 12px;
+  }
+}

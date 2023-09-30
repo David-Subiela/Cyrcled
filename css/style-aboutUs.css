@@ -19,22 +19,28 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--bondie-blue);
+  padding-top: 60px;
 }
 .aboutus-title {
   color: var(--white);
-  margin: 55px 0px 54px 0px;
+  margin: 90px 0px 54px 0px;
   line-height: 4.2rem;
   font-size: 4.2rem;
   font-weight: 600;
 }
-.aboutus-subtitle {
+.high-cyrcled {
+  color: var(--white);
+  font-size: 100px;
+  line-height: 200px;
+}
+/* .aboutus-subtitle {
   max-width: 400px;
   margin: 0 auto;
   margin-bottom: 54px;
   color: var(--white);
   line-height: 2.2rem;
 }
-
+ */
 /* ABOUT US SECUNDARIOS */
 .aboutUs-secondary {
   display: flex;
@@ -54,6 +60,12 @@
   margin-bottom: 54px;
   line-height: 2.2rem;
   padding-bottom: 20px;
+}
+.aboutus-title-secondary-finish {
+  margin: 15px 0px 100px 0px;
+  line-height: 4.2rem;
+  font-size: 3.2rem;
+  font-weight: 600;
 }
 
 .separa-aboutUs {

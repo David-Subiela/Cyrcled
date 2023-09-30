@@ -1,0 +1,150 @@
+/* --------------------------------------------------------- */
+/* RESPONSIVE 665PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 665px) {
+  .aboutUs-first {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+  .condiciones-politicas {
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 584PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 584px) {
+  .aboutus-title {
+    font-size: 3rem;
+  }
+  .high-cyrcled {
+    font-size: 85px;
+    line-height: 180px;
+  }
+  .aboutus-title-secondary {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .aboutus-subtitle-secondary {
+    text-align: center;
+    font-size: 22px;
+  }
+  .aboutus-title-secondary-finish {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 560PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 560px) {
+  .flecha-arriba {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutUs-first,
+  .aboutUs-secondary-one {
+    padding-top: 50px;
+  }
+  .aboutus-title,
+  .aboutus-title-secondary {
+    font-size: 3rem;
+    margin: 35px 0px 54px 0px;
+  }
+  .aboutus-subtitle,
+  .aboutus-subtitle-secondary {
+    font-size: 22px;
+    padding-bottom: 50px;
+  }
+  .separa-encab {
+    margin-left: 55px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 428PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 428px) {
+  .flecha-arriba {
+    width: 30px;
+    height: 30px;
+  }
+  .btn-whatsApp {
+    width: 30px;
+    height: 30px;
+  }
+  .aboutus-subtitle-secondary {
+    max-width: 335px;
+    line-height: 1.8rem;
+    font-size: 20px;
+  }
+  .aboutus-title-secondary-finish {
+    font-size: 2.5rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 390PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  .aboutus-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .high-cyrcled {
+    font-size: 75px;
+    line-height: 150px;
+  }
+  .aboutus-subtitle-secondary {
+    max-width: 300px;
+    font-size: 16px;
+  }
+  .aboutus-title-secondary-finish {
+    font-size: 2rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 345PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 345px) {
+  .aboutus-title,
+  .aboutus-title-secondary {
+    font-size: 2.5rem;
+  }
+  .aboutus-subtitle-secondary {
+    font-size: 13px;
+  }
+  .aboutUs-secondary-one {
+    padding-top: 20px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 330px) {
+  .high-cyrcled {
+    font-size: 65px;
+    line-height: 140px;
+  }
+  .aboutus-title,
+  .aboutus-title-secondary {
+    font-size: 2.2rem;
+  }
+  .aboutus-subtitle-secondary {
+    max-width: 255px;
+  }
+  .aboutus-title-secondary-finish {
+    font-size: 1.8rem;
+  }
+}

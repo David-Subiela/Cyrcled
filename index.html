@@ -4,27 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/style-footer.css" />
-    <link rel="stylesheet" href="/style-cookies.css" />
-    <link rel="stylesheet" href="/style-envio.css" />
-    <link rel="stylesheet" href="/style-suscribe.css" />
-    <link rel="stylesheet" href="/style-whatsYflecha.css" />
-    <link rel="stylesheet" href="/style-cart.css" />
-    <link rel="stylesheet" href="/style-responsive.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-whatsYflechaYmodal.css">
+    <link rel="stylesheet" href="/css/style-envio.css" />
+    <link rel="stylesheet" href="/css/style-suscribe.css" />
+    <!-- <link rel="stylesheet" href="/css/style-cart.css" /> -->
+    <link rel="stylesheet" href="/css/style-footer.css" />
+    <link rel="stylesheet" href="/css/style-cookies.css" />
+    <link rel="stylesheet" href="/css/style-responsive-header.css">
+    <link rel="stylesheet" href="/css/style-responsive-principal.css">
+    <link rel="stylesheet" href="/css/style-responsive-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <title>Cyrcled</title>
 </head>
 
-<body>
+<body style="min-height: auto;">
+    <!-------------------------------- FIN WHATS Y FLECHA -------------------------------------->
     <div class="flecha-arriba">
-        <img src="/img/flecha.png" alt="flecha" />
+        <img src="assets/img/flecha.png" alt="flecha" />
     </div>
     <div class="btn-whatsApp">
         <a href="https://api.whatsapp.com/send?phone=+" class="btn-whatsApp" id="tooltip" target="_blank">
@@ -32,6 +38,8 @@
                 PRODUCTOS</span>
         </a>
     </div>
+    <!-------------------------------- FIN WHATS Y FLECHA -------------------------------------->
+
     <!-------------------------------- MODAL CARGAR PÁGINA NEWSLETTER -------------------------------------->
     <div class="modal-newslet-completa">
         <input type="checkbox" id="cerrar">
@@ -64,7 +72,7 @@
     <!-------------------------------- FIN MODAL CARGAR PÁGINA NEWSLETTER -------------------------------------->
 
     <!-------------------------------- ENCABEZADO -------------------------------------->
-    <header>
+    <header id="header">
         <div class="suscribete">
             <ul class="slide-text">Gastos de envío gratis a partir de 45€</ul>
             <ul class="slide-text">Inicia sesión como socio/a y disfruta de las ventajas</ul>
@@ -72,21 +80,28 @@
         </div>
         <nav class="encabezado-completo" id="encabezado-completo">
             <div class="encabezado">
+                <i class="fas fa-bars" id="btn_menu"></i>
+                <div id="back_menu"></div>
+                <span class="menu-text">Menú</span>
                 <div class="nombre-tienda">
                     <a href="/index.html">
-                        <img class="cyrcled-logo" src="/img/Logo.png" alt="Logo Cyrcled" />
+                        <img class="cyrcled-logo" src="/assets/img/Logo.png" alt="Logo Cyrcled" />
                     </a>
                 </div>
-                <div class="encab-somos">
-                    <a href="/index-somos.html">Quiénes somos</a>
+                <div class="encab-somosInput">
+                    <div class="encab-somos">
+                        <a href="/index-somos.html">Quiénes somos</a>
+                    </div>
+                    <div class="encab-input">
+                        <input type="text" name="search" placeholder="Buscar en Cyrcled" class="src"
+                            id="autocomplete-input" autocomplete="off" />
+                    </div>
                 </div>
                 <div class="nav-icons">
-                    <input type="text" name="search" placeholder="Buscar en Cyrcled" class="src" id="autocomplete-input"
-                        autocomplete="off" />
                     <a href="#" title="Lista de deseos">
                         <i class="fa-regular fa-heart fa-lg" alt="Lista de deseos"></i>
                     </a>
-                    <div class="header__cart--notification">0</div>
+                    <!-- <div class="header__cart--notification">0</div> -->
                     <a href="#" title="Carro de compra" class="principal-cartChart">
                         <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
                     </a>
@@ -94,89 +109,64 @@
                         <i class="fa-solid fa-circle-user" alt="Login"></i>
                     </a>
                 </div>
-                <!-------------------------------- PERSISTENT HEADER SCROLL -------------------------------------->
-                <div class="menu-appear">
-                    <div class="movil">
-                        <input type="checkbox" id="btn_menu">
-                        <label for="btn_menu" class="btn_menu flex_column">
-                            <span id="btn_span_1" class="btn_span"></span>
-                            <span id="btn_span_2" class="btn_span"></span>
-                            <span id="btn_span_3" class="btn_span"></span>
-                            <span class="menu-text">Menú</span>
-                        </label>
-                        <div class="container_flex">
-                            <nav class="container_menu flex_column">
-                                <div class="container_menu-total">
-                                    <div class="container_menu-item">
-                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
-                                                alt="">Solares</a>
-                                        <a href="#"><i class="menu-item-next"></i></a>
-                                    </div>
-                                    <hr class="container_menu-separa">
-                                    <div class="container_menu-item">
-                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
-                                                alt="">Cabello</a>
-                                        <a href="#"><i class="menu-item-next"></i></a>
-                                    </div>
-                                    <hr class="container_menu-separa">
-                                    <div class="container_menu-item">
-                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
-                                                alt="">Facial</a>
-                                        <a href="#"><i class="menu-item-next"></i></a>
-                                    </div>
-                                    <hr class="container_menu-separa">
-                                    <div class="container_menu-item">
-                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
-                                                alt="">Corporal</a>
-                                        <a href="#"><i class="menu-item-next"></i></a>
-                                    </div>
-                                    <hr class="container_menu-separa">
-                                    <div class="container_menu-item">
-                                        <a href="#" class="menu-item-product"><img src="/img/encabezado/cabello.jpg"
-                                                alt="">Complementos alimenticios</a>
-                                        <a href="#"><i class="menu-item-next"></i></a>
-                                    </div>
-                                    <hr class="container_menu-separa">
-                                </div>
-                                <ul class="login-register">
-                                    <li><a href="#">Iniciar Sesión</a></li>
-                                    <hr class="fin-encab-menu" />
-                                    <li><a href="#">Regístrate</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- <div class="overlay" id="overlay"></div> -->
-                    </div>
-                    <div class="carro-compra-oculto">
-                        <div class="header__cart--notification-oculto">0</div>
-                        <a href="#" title="Carro compra" class="principal-cartChart-oculto">
-                            <i class="fa-solid fa-bag-shopping" alt="Carro Compra"></i>
-                        </a>
-                    </div>
-                </div>
-                <!-------------------------------- FIN PERSISTENT HEADER SCROLL -------------------------------------->
             </div>
         </nav>
+        <!-------------------------------- MENU HAMBURGUESA -------------------------------------->
         <div class="menu-encab-completo">
-            <ul class="menu-encab">
-                <li>
-                    <a href="#">Solares</a>
-                </li>
-                <li>
-                    <a href="#">Cabello</a>
-                </li>
-                <li>
-                    <a href="#">Facial</a>
-                </li>
-                <li>
-                    <a href="#">Corporal</a>
-                </li>
-                <li>
-                    <a href="#">Complementos alimenticios</a>
-                </li>
-            </ul>
+            <nav id="nav">
+                <a href="/index.html">
+                    <img class="cyrcled-logo-menu" src="/assets/img/Logo.png" alt="Logo Cyrcled" />
+                </a>
+                <ul class="menu-encab">
+                    <li>
+                        <div class="container_menu-item">
+                            <a href="#" class="menu-item-product"><img src="assets/img/encabezado/cabello.jpg"
+                                    alt="">Solares</a>
+                            <a href="#"><i class="menu-item-next"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container_menu-item">
+                            <a href="#" class="menu-item-product"><img src="assets/img/encabezado/cabello.jpg"
+                                    alt="">Cabello</a>
+                            <a href="#"><i class="menu-item-next"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container_menu-item">
+                            <a href="#" class="menu-item-product"><img src="assets/img/encabezado/cabello.jpg"
+                                    alt="">Facial</a>
+                            <a href="#"><i class="menu-item-next"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container_menu-item">
+                            <a href="#" class="menu-item-product"><img src="assets/img/encabezado/cabello.jpg"
+                                    alt="">Corporal</a>
+                            <a href="#"><i class="menu-item-next"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container_menu-item">
+                            <a href="#" class="menu-item-product"><img src="assets/img/encabezado/cabello.jpg"
+                                    alt="">Complementos alimenticios</a>
+                            <a href="#"><i class="menu-item-next"></i></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="login-register">
+                    <li class="login-register-bottom">
+                        <a href="#">Iniciar Sesión</a>
+                    </li>
+                    <hr class="fin-encab-menu" />
+                    <li class="login-register-bottom">
+                        <a href="#">Regístrate</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <!-- <hr class="fin-encab" /> -->
+        <!-------------------------------- FIN MENU HAMBURGUESA -------------------------------------->
     </header>
     <!-------------------------------- FIN ENCABEZADO -------------------------------------->
 
@@ -185,8 +175,8 @@
         <h1 class="secreto-dos-heading">
             ¿Qué es Cyrcled?
         </h1>
-        <p class="secreto-dos-subheading">Descubre Cyrcled®, ipsum dolor sit amet consectetur adipisicing elit.
-            Laudantium iusto in soluta aut odio facilis ullam eos tempora repudiandae voluptate sunt.
+        <p class="secreto-dos-subheading">Descubre Cyrcled®, somos y seremos más que una empresa o una marca, somos un
+            concepto que marca la nueva mentalidad y el movimiento que le va bien a nuestro planeta.
         </p>
         <div class="banner__buttons">
             <a role="button" href="/index-somos.html" class="button-mas">¡QUIERO SABER MÁS!</a>
@@ -197,13 +187,13 @@
             <div id="carrusel-contenido">
                 <div id="carrusel-caja">
                     <div class="carrusel-elemento">
-                        <img class="imagenes" src="/img/slider/Imagen1.jpg" alt="Error de carga">
+                        <img class="imagenes" src="assets/img/slider/Imagen1.jpg" alt="Error de carga">
                     </div>
                     <div class="carrusel-elemento">
-                        <img class="imagenes" src="/img/slider/Imagen2.jpg" alt="Error de carga">
+                        <img class="imagenes" src="assets/img/slider/Imagen2.jpg" alt="Error de carga">
                     </div>
                     <div class="carrusel-elemento">
-                        <img class="imagenes" src="/img/slider/Imagen3.jpg" alt="Error de carga">
+                        <img class="imagenes" src="assets/img/slider/Imagen3.jpg" alt="Error de carga">
                     </div>
                 </div>
             </div>
@@ -259,7 +249,7 @@
                         <div class="product-offer">
                             <p class="sticker_1">MÁS VENDIDO</p>
                         </div>
-                        <img src="/img/novedades/hyaluronic.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/hyaluronic.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Ácido hialurónico</h2>
@@ -282,7 +272,7 @@
                         <div class="product-offer">
                             <p class="sticker_1">MÁS VENDIDO</p>
                         </div>
-                        <img src="/img/novedades/labios.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/labios.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Pintalabios</h2>
@@ -302,7 +292,7 @@
                 </div>
                 <div class="item">
                     <figure>
-                        <img src="/img/novedades/cream.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/cream.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Crema corporal</h2>
@@ -322,7 +312,7 @@
                 </div>
                 <div class="item">
                     <figure>
-                        <img src="/img/novedades/face-wash.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/face-wash.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Hidratante facial</h2>
@@ -345,7 +335,7 @@
                 <!-------------------------------- SEGUNDO GRUPO DE PRODUCTOS (NOVEDADES) -------------------------------------->
                 <div class="item dissapear">
                     <figure>
-                        <img src="/img/novedades/hidratant.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/hidratant.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Skin care</h2>
@@ -365,7 +355,7 @@
                 </div>
                 <div class="item dissapear">
                     <figure>
-                        <img src="/img/novedades/limpiadorFacial.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/limpiadorFacial.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Limpiador facial</h2>
@@ -385,7 +375,7 @@
                 </div>
                 <div class="item dissapear">
                     <figure>
-                        <img src="/img/novedades/solar.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/solar.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Crema solar</h2>
@@ -405,7 +395,7 @@
                 </div>
                 <div class="item dissapear">
                     <figure>
-                        <img src="/img/novedades/desinfectante.jpg" alt="Error de carga">
+                        <img src="assets/img/novedades/desinfectante.jpg" alt="Error de carga">
                     </figure>
                     <div class="info-product">
                         <h2>Desinfectante de manos</h2>
@@ -433,19 +423,19 @@
         <section class="imagen-envio">
             <div class="titulo">
 
-                <img src="/assets/envios/box-service-1.png" alt="Entrega Pedidos" />
+                <img src="assets/envios/box-service-1.png" alt="Entrega Pedidos" />
 
                 <div class="envio">
                     <h3>Envíos a nivel nacional</h3>
                     <hr class="separar-envio" />
                     <a href="#">
-                        <span class="entre24">Compras a partir de 35$</span>
+                        <span class="entre24">Compras a partir de 35€</span>
                     </a>
                 </div>
             </div>
             <div class="titulo">
 
-                <img src="/assets/envios/box-service-2.png" alt="Tiempo de envío" />
+                <img src="assets/envios/box-service-2.png" alt="Tiempo de envío" />
 
                 <div class="envio">
                     <h3>Tiempo de entrega</h3>
@@ -457,7 +447,7 @@
             </div>
             <div class="titulo">
 
-                <img src="/assets/envios/box-service-3.png" alt="Garantía de calidad" />
+                <img src="assets/envios/box-service-3.png" alt="Garantía de calidad" />
 
                 <div class="envio">
                     <h3>Garantía de calidad</h3>
@@ -540,7 +530,7 @@
                             <i class="fa-brands fa-instagram fa-2x"></i>
                         </a>
                         <div class="nombre-tienda">
-                            <img class="cyrcled-logo-foot" src="/img/Logo.png" alt="Logo Cyrcled" />
+                            <img class="cyrcled-logo-foot" src="assets/img/Logo.png" alt="Logo Cyrcled" />
                         </div>
                     </div>
                     <div class="location-clic">
@@ -594,10 +584,9 @@
         </footer>
     </section>
     <!-------------------------------- FIN FOOTER -------------------------------------->
-
     <!-------------------------------- COOKIES -------------------------------------->
     <div class="aviso-cookies" id="aviso-cookies">
-        <img class="galleta" src="/img/svg/cookie.svg" alt="Galleta" />
+        <img class="galleta" src="assets/img/svg/cookie.svg" alt="Galleta" />
         <h3 class="titulo-cookies">Cookies</h3>
         <p class="parrafo">
             Utilizamos cookies propias y de terceros para mejorar nuestros
@@ -609,10 +598,11 @@
     </div>
     <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
     <!-------------------------------- FIN COOKIES -------------------------------------->
-    <script src="/script.js"></script>
-    <script src="/script-favheartVermas.js"></script>
-    <script src="/script-persistHeader.js"></script>
-    <script src="/script-cookies.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/script-favheartVermas.js"></script>
+    <!-- <script src="/script-persistHeader.js"></script> -->
+    <script src="/js/script-cookies.js"></script>
+    <script src="/js/script-menuHamb.js"></script>
 </body>
 
 </html>
