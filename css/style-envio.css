@@ -29,7 +29,9 @@
 
 .entre24 {
   font-style: italic;
-  color: var(--tropical-rain-forest);
+  color: var(--cyrcled);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .entre24:hover {
   text-decoration: underline;

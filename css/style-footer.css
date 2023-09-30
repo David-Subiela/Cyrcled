@@ -3,8 +3,8 @@
 .separa-encab {
   margin-top: 50px;
   margin-bottom: 25px;
-  width: 80%;
-  margin-left: 150px;
+  width: 100%;
+  /* margin-left: 150px; */
   opacity: 0.2;
   border: 1px solid;
   border-color: var(--bondie-blue);

@@ -13,6 +13,14 @@ body {
   /* font-family: "Klarna Text", sans-serif; */
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+button[type="button"] {
+  font-family: "Questrial", sans-serif;
+}
+
 header {
   background-color: #dff7ff;
 }
@@ -500,9 +508,13 @@ input[type="text"] {
 }
 
 /* CORAZON */
+div#element4 {
+  padding-top: 3px;
+}
 .change-heart {
-  background: url(/img/svg/heart-solid-red.svg) center no-repeat;
+  background: url(/assets/img/svg/heart-solid-red.svg) center no-repeat;
   color: var(--heart);
+  padding-top: 3px;
 }
 
 /* CLICK BOTÓN VER MÁS */

@@ -182,6 +182,20 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 1080PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1080px) {
+  .menu-encab {
+    gap: 70px;
+    padding: 20px;
+  }
+  .menu-encab li {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 1040PX */
 /* --------------------------------------------------------- */
 
@@ -209,11 +223,28 @@
 
 @media screen and (max-width: 1008px) {
   .contenido h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
   .accept-newslet input {
     font-size: 18px;
     height: 45px;
+  }
+  .email-newslet {
+    margin-left: 11px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 960PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 960px) {
+  .menu-encab {
+    gap: 70px;
+    padding: 17px;
+  }
+  .menu-encab li {
+    font-size: 14px;
   }
 }
 
@@ -233,9 +264,6 @@
   }
   .menu-encab {
     gap: 40px;
-  }
-  .contenido h2 {
-    font-size: 28px;
   }
   .contenido {
     right: 315px;
@@ -265,6 +293,20 @@
   .encab-somos a {
     padding-left: 0px;
     font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 815PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 815px) {
+  .contenido {
+    width: 40%;
+    right: 250px;
+  }
+  #cerrar + label {
+    right: 240px;
   }
 }
 
@@ -347,6 +389,16 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 700px) {
+  .btn-whatsApp {
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 32px;
+  }
+  .flecha-arriba {
+    width: 40px;
+    height: 40px;
+  }
   #header {
     height: 95px;
   }
@@ -359,7 +411,7 @@
     width: 375px;
     height: 100vh;
     padding: 25px;
-    z-index: 1;
+    z-index: 2;
     transition: all 300ms;
   }
   .menu-encab-completo ul {
@@ -396,10 +448,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: none;
-    z-index: 1;
+    z-index: 2;
   }
 
   .encabezado #btn_menu {
@@ -454,7 +506,7 @@
     margin-right: 20px;
   }
   .menu-item-next {
-    background-image: url(/img/svg/icon-next.svg);
+    background-image: url(/assets/img/svg/icon-next.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 10px;
@@ -537,8 +589,13 @@
   }
   .contenido {
     right: 230px;
-    height: 66%;
+    height: 62%;
+    width: 45%;
   }
+  .accept-newslet input {
+    margin-top: 10px;
+  }
+
   .contenido h2 {
     font-size: 22px;
   }
@@ -559,11 +616,9 @@
   }
   .accept-newslet input {
     font-size: 15px;
-    height: 35px;
-  }
-  .accept-newslet input {
+    height: 42px;
     width: 78%;
-    margin-left: 31px;
+    margin-left: 30px;
   }
 }
 
@@ -603,6 +658,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 645px) {
+  .suscribete {
+    font-size: 0.75rem;
+  }
   .encabezado {
     margin-left: 7px;
   }
@@ -634,7 +692,7 @@
     margin-left: 70px;
   }
   .login-register {
-    width: 343px;
+    width: 337px;
     font-size: 12px;
     bottom: -120px;
   }
@@ -657,15 +715,15 @@
   }
   .email-newslet {
     margin-top: 25px;
-    margin-left: 27px;
+    margin-left: 4px;
   }
   input#email-newslet {
     font-size: 11px;
     height: 32px;
   }
   .accept-newslet input {
-    font-size: 13px;
-    height: 30px;
+    font-size: 11px;
+    height: 37px;
     width: 73%;
   }
   .newslet-politica {
@@ -868,8 +926,17 @@
   .btn-whatsApp {
     width: 40px;
     height: 40px;
-    line-height: 39px;
+    line-height: 44px;
     font-size: 30px;
+  }
+  .flecha-arriba {
+    width: 35px;
+    height: 35px;
+    right: 65px;
+  }
+  .suscribete {
+    font-size: 0.6rem;
+    letter-spacing: 1.7px;
   }
   .menu-text {
     right: 64px;
@@ -1016,6 +1083,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 414px) {
+  .flecha-arriba {
+    right: 30px;
+  }
   .menu-text {
     right: 58px;
   }
@@ -1034,6 +1104,9 @@
   }
   input#autocomplete-input {
     width: 145px;
+  }
+  footer {
+    padding-top: 50px;
   }
 }
 /* --------------------------------------------------------- */
@@ -1056,6 +1129,26 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 397PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 397px) {
+  .menu-text {
+    right: 52px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 394PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 394px) {
+  .menu-text {
+    right: 48px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 390PX */
 /* --------------------------------------------------------- */
 
@@ -1063,6 +1156,10 @@
   .suscribete {
     font-size: 0.5rem;
     padding: 0.75rem;
+  }
+  .menu-text {
+    right: 56px;
+    font-size: 9px;
   }
   .cyrcled-logo {
     width: 55px;
@@ -1074,9 +1171,6 @@
   }
   .nav-icons a {
     font-size: 12px;
-  }
-  .menu-text {
-    font-size: 9px;
   }
 }
 

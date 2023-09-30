@@ -1,0 +1,303 @@
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1125PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1125px) {
+  /* SECCION ENVIOS */
+  .imagen-envio img {
+    width: 350px;
+  }
+  .envio h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .separar-envio {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1080PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1080px) {
+  .imagen-envio img {
+    width: 325px;
+  }
+  .envio h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .entre24 {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1040PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1040px) {
+  .secreto-dos-heading {
+    max-width: 30rem;
+    font-size: 50px;
+  }
+  .secreto-dos-subheading {
+    max-width: 24rem;
+    font-size: 19px;
+    letter-spacing: 0.1rem;
+  }
+  .banner__buttons {
+    margin-left: 45px;
+  }
+  .button-mas {
+    font-size: 16px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1025PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1025px) {
+  .imagen-envio img {
+    width: 310px;
+  }
+  .item {
+    margin-right: 0px;
+    margin-left: 8px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 960PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 960px) {
+  .secreto-dos {
+    padding: 85px;
+  }
+  .secreto-dos-heading {
+    font-size: 45px;
+  }
+  .secreto-dos-subheading {
+    max-width: 22rem;
+    font-size: 17px;
+  }
+  .button-mas {
+    font-size: 14px;
+    padding: 0.6rem 1.4rem;
+  }
+  /* SECCION ENVIOS */
+  .imagen-envio {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen-envio img {
+    width: 325px;
+  }
+  .titulo {
+    margin-bottom: -35px;
+  }
+  .info-product h2 {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .corazon {
+    font-size: 18px;
+  }
+  .info-product button {
+    font-size: 11px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 870PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 870px) {
+  .global-sec {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .price {
+    font-size: 13px;
+  }
+  .price-rebaja {
+    font-size: 15px;
+  }
+  .item img {
+    height: 310px;
+  }
+  .btn-light {
+    font-size: 13px;
+    width: 125px;
+    height: 45px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 834PX */
+/* --------------------------------------------------------- */
+
+@media only screen and (max-width: 834px) {
+  .menu-partner-item {
+    padding: 35px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 815PX */
+/* --------------------------------------------------------- */
+
+@media only screen and (max-width: 815px) {
+  .container-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 795PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 795px) {
+  .imagenes {
+    height: 375px;
+  }
+  .secreto-dos {
+    padding: 75px;
+  }
+  .secreto-dos-heading {
+    font-size: 40px;
+  }
+  .secreto-dos-subheading {
+    font-size: 15px;
+  }
+  .button-mas {
+    font-size: 13px;
+  }
+  .banner__buttons {
+    margin-left: 57px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 765PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 765px) {
+  .menu-partner-item {
+    padding: 28px;
+  }
+  .nov-semana {
+    font-size: 28px;
+    padding: 55px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 700PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+  .menu-partner-item {
+    padding: 25px;
+  }
+  .card {
+    font-size: 14px;
+  }
+  .secreto-dos {
+    padding: 75px 50px;
+  }
+  .secreto-dos-heading {
+    font-size: 35px;
+  }
+  .secreto-dos-subheading {
+    font-size: 14px;
+    max-width: 20rem;
+  }
+  .banner__buttons {
+    margin-left: 42px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 645PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 645px) {
+  .container-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-partner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+  }
+  .nov-semana {
+    padding: 50px;
+  }
+  .item img {
+    height: 275px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 560PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 560px) {
+  .secreto-dos {
+    padding: 75px 35px;
+  }
+  .secreto-dos-heading {
+    font-size: 32px;
+  }
+  .secreto-dos-subheading {
+    font-size: 13px;
+  }
+  .button-mas {
+    font-size: 12px;
+    padding: 0.6rem 1.2rem;
+  }
+  .banner__buttons {
+    margin-left: 40px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 500PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+  .secreto-dos {
+    padding: 85px 85px;
+  }
+  .secreto-dos-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .secreto-dos-subheading {
+    font-size: 12px;
+    text-align: center;
+  }
+  .button-mas {
+    font-size: 10px;
+    padding: 0.6rem 1rem;
+  }
+  .banner__buttons {
+    margin-left: 80px;
+  }
+  .enterate h2 {
+    font-size: 20px;
+  }
+  .name label,
+  .email label {
+    font-size: 11px;
+  }
+  label.container-policy {
+    font-size: 13px;
+  }
+}

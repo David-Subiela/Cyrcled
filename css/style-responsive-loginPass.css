@@ -106,3 +106,260 @@
     font-size: 11px;
   }
 }
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 465PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 465px) {
+  .account-page {
+    min-height: 20.25rem;
+    max-width: 20.25rem;
+  }
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 2rem 0.625rem;
+  }
+  .ini-session-contra p {
+    font-size: 13px;
+  }
+  input.accept-register {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+  .pass-remain {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 414PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 414px) {
+  .section-title {
+    font-size: 11px;
+  }
+  input#signup-email,
+  input#signup-name,
+  input#signup-apellido,
+  input#signup-password {
+    font-size: 11px;
+  }
+  .pass-explain {
+    font-size: 11px;
+    padding-bottom: 25px;
+  }
+  label.form-privacity {
+    font-size: 11px;
+  }
+  input.accept-register {
+    font-size: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 410PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 410px) {
+  .toggle-menu {
+    padding: 3px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 406PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 406px) {
+  .toggle-menu {
+    padding: 2.5px;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2.5rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2.5rem 0.625rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 398PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 398px) {
+  .toggle-menu {
+    padding: 2px;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2.4rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2.4rem 0.625rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 394PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 394px) {
+  .toggle-menu {
+    padding: 1.5px;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 2rem 0.625rem;
+  }
+  /* button.toggle-btn-session.toggle-btn-active form.ini-session-contra {
+    padding: 0.825rem 2.3rem 0.625rem;
+  } */
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 390PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  input.accept-register {
+    letter-spacing: 1px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 380PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 380px) {
+  .toggle-menu {
+    padding: 1.1px;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.7rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.7rem 0.625rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 370PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 370px) {
+  .toggle-menu {
+    padding: 1px;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.8rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.8rem 0.625rem;
+  }
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 1.5rem 0.625rem;
+  }
+  .ini-session-contra p {
+    font-size: 11px;
+  }
+  input.accept-register {
+    font-size: 8px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 357PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 357px) {
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 1.5rem 0.625rem;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.5rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.5rem 0.625rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 357PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 357px) {
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 1.2rem 0.625rem;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.2rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1.2rem 0.625rem;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 335PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 335px) {
+  input.accept-register {
+    letter-spacing: 0.6px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 328PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 328px) {
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 1rem 0.625rem;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 1rem 0.625rem;
+  }
+  input.accept-register {
+    letter-spacing: 0.3px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 315PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 315px) {
+  .toggle-menu .toggle-btn-register,
+  .toggle-btn-session {
+    padding: 0.825rem 0.9rem 0.625rem;
+  }
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 0.9rem 0.625rem;
+  }
+  button.toggle-btn-session.toggle-btn-active,
+  button.toggle-btn-register.toggle-btn-active {
+    padding: 0.825rem 0.9rem 0.625rem;
+  }
+  input.accept-register {
+    font-size: 7px;
+  }
+}
