@@ -932,7 +932,7 @@
   .flecha-arriba {
     width: 35px;
     height: 35px;
-    right: 65px;
+    right: 20px;
   }
   .suscribete {
     font-size: 0.6rem;
@@ -1083,9 +1083,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 414px) {
-  .flecha-arriba {
+  /* .flecha-arriba {
     right: 30px;
-  }
+  } */
   .menu-text {
     right: 58px;
   }
@@ -1153,6 +1153,17 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 390px) {
+  .flecha-arriba {
+    width: 30px;
+    height: 30px;
+    right: 15px;
+  }
+  .btn-whatsApp {
+    width: 35px;
+    height: 35px;
+    line-height: 39px;
+    font-size: 25px;
+  }
   .suscribete {
     font-size: 0.5rem;
     padding: 0.75rem;
@@ -1239,6 +1250,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 360px) {
+  .btn-whatsApp {
+    left: 7px;
+  }
   .encabezado {
     justify-content: space-between;
   }
@@ -1306,6 +1320,7 @@
   .container_menu-item {
     margin-top: 15px;
     margin-bottom: 10px;
+    margin-left: 0px;
   }
   .menu-item-product {
     font-size: 8px;
@@ -1316,25 +1331,36 @@
     margin-right: 8px;
   }
   .menu-item-next {
-    margin-left: 60px;
+    margin-left: 78px;
   }
   .contenido {
     height: 52%;
   }
   .contenido h2 {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .contenido h4 {
+    font-size: 9px;
   }
   input#email-newslet {
     margin-top: 5px;
     font-size: 10px;
     height: 28px;
-    width: 85%;
-    margin-bottom: 15px;
+    width: 70%;
+    margin-bottom: 12px;
+    margin-left: 28px;
   }
   .accept-newslet input {
-    font-size: 10px;
+    font-size: 9px;
     height: 25px;
-    width: 67%;
+    width: 70%;
+    margin-left: 23px;
+    margin-bottom: 17px;
+    padding: 8px;
+  }
+  .newslet-politica {
+    padding-top: 0px;
+    padding-bottom: 7px;
   }
 }
 
@@ -1367,6 +1393,10 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 330px) {
+  .flecha-arriba {
+    width: 25px;
+    height: 25px;
+  }
   .suscribete {
     font-size: 0.4rem;
     padding: 0.65rem;

@@ -104,10 +104,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 428px) {
-  .siguenos h5,
-  .location-clic h5 {
-    font-size: 17px;
-  }
   .siguenos a {
     font-size: 13px;
   }
@@ -171,6 +167,47 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 360PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 360px) {
+  .footer-clic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  span.pay-icon,
+  span.paypal-icon {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+  .metodos-pago {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    margin-left: 0px;
+  }
+  .cyrcled-logo-foot {
+    margin-bottom: 17px;
+  }
+  .siguenos h5,
+  .location-clic h5,
+  .location-clic a {
+    font-size: 13px;
+  }
+  .location-clic,
+  .location-clic span {
+    font-size: 12px;
+  }
+  .condiciones-politicas {
+    font-size: 12px;
+  }
+  footer .col-md-4 {
+    font-size: 11px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 345PX */
 /* --------------------------------------------------------- */
 
@@ -184,7 +221,10 @@
   }
   .location-clic,
   .location-clic span {
-    font-size: 12px;
+    font-size: 11px;
+  }
+  .metodos-pago {
+    gap: 8px;
   }
 }
 
@@ -200,13 +240,11 @@
     font-size: 11px;
   }
   .metodos-pago {
-    padding-left: 5px;
+    padding-left: 0px;
   }
-  span.pay-icon {
-    margin-left: 7px;
-  }
+  span.pay-icon,
   span.paypal-icon {
-    margin-left: 12px;
+    margin-left: 4px;
   }
   footer {
     padding-top: 46px;

@@ -301,3 +301,287 @@
     font-size: 13px;
   }
 }
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 465PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 465px) {
+  .banner__buttons {
+    margin-left: 65px;
+  }
+  .item img {
+    height: 260px;
+  }
+  .info-product button {
+    gap: 5px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 465PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 440px) {
+  .banner__buttons {
+    margin-left: 55px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 428PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 428px) {
+  .secreto-dos {
+    padding: 80px 80px;
+  }
+  .info-product button {
+    font-size: 10px;
+  }
+
+  .container-items {
+    gap: 35px;
+    justify-content: center;
+  }
+  .item {
+    width: 155px;
+  }
+  .item img {
+    height: 230px;
+  }
+  .info-product h2 {
+    font-size: 12px;
+  }
+  .price {
+    font-size: 11px;
+  }
+  .percent-discount {
+    font-size: 0.5em;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 414PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 414px) {
+  .secreto-dos-subheading {
+    max-width: 15rem;
+  }
+  .button-mas {
+    font-size: 9px;
+    padding: 0.6rem 0.8rem;
+  }
+  .banner__buttons {
+    margin-left: 45px;
+  }
+  .container-items {
+    gap: 25px;
+  }
+  .item img {
+    height: 215px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 394PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 394px) {
+  .container-items {
+    gap: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 390PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  .secreto-dos {
+    padding: 75px 75px;
+  }
+  .secreto-dos-heading {
+    font-size: 28px;
+  }
+  .secreto-dos-subheading {
+    font-size: 11px;
+  }
+  .banner__buttons {
+    margin-left: 42px;
+  }
+  .container-items {
+    gap: 12px;
+  }
+  .item img {
+    height: 200px;
+  }
+  span.add-cart-disappear {
+    display: none;
+  }
+  .info-product button {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+  .details-prices {
+    margin-bottom: 5px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 360PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 360px) {
+  .secreto-dos {
+    padding: 85px 75px;
+  }
+  .secreto-dos-heading {
+    font-size: 26px;
+  }
+  .banner__buttons {
+    margin-left: 40px;
+  }
+  .button-mas {
+    font-size: 8px;
+    padding: 0.5rem 0.7rem;
+  }
+  .container-items {
+    gap: 5px;
+  }
+  .item {
+    width: 145px;
+    margin-bottom: 10px;
+  }
+  .item img {
+    height: 190px;
+  }
+  .info-product button {
+    padding: 8px 8px;
+  }
+  .btn-light {
+    font-size: 12px;
+    width: 115px;
+    height: 40px;
+    padding: 13px;
+  }
+  .imagen-envio img {
+    width: 275px;
+  }
+  .envio h3 {
+    font-size: 14px;
+    margin-top: 14px;
+  }
+  .entre24 {
+    font-size: 11px;
+  }
+  .titulo {
+    margin-bottom: -50px;
+  }
+  .enterate h2 {
+    font-size: 18px;
+  }
+  .name input,
+  .email input {
+    width: 80%;
+    margin: 0px 28px 14px;
+  }
+  .name label,
+  .email label {
+    padding-left: 30px;
+  }
+  label.container-policy {
+    font-size: 12px;
+    margin-left: 17px;
+  }
+  .form-submitBtn input[type="submit"] {
+    width: 80%;
+    margin: 25px 30px;
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 351PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 351px) {
+  .secreto-dos {
+    padding: 90px 70px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 341PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 341px) {
+  .secreto-dos {
+    padding: 88px 58px;
+  }
+  .menu-partner-item {
+    padding: 23px;
+  }
+  .card {
+    font-size: 13px;
+  }
+  .banner__buttons {
+    margin-left: 50px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 330px) {
+  .global-sec {
+    margin-right: 55px;
+    margin-left: 50px;
+  }
+  .product-offer p {
+    font-size: 0.7rem;
+  }
+  .item {
+    width: 140px;
+  }
+  .item img {
+    height: 185px;
+  }
+  .info-product {
+    gap: 0px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 325PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 325px) {
+  .banner__buttons {
+    margin-left: 38px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 320PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+  .secreto-dos {
+    padding: 88px 50px;
+  }
+  .banner__buttons {
+    margin-left: 41px;
+  }
+  .menu-partner-item {
+    padding: 20px;
+  }
+  .item img {
+    height: 175px;
+  }
+  .price-rebaja {
+    font-size: 14px;
+  }
+}
