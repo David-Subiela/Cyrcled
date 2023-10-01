@@ -173,9 +173,9 @@
   .secreto-dos-heading {
     font-size: 40px;
   }
-  .secreto-dos-subheading {
+  /* .secreto-dos-subheading {
     font-size: 15px;
-  }
+  } */
   .button-mas {
     font-size: 13px;
   }
@@ -212,11 +212,11 @@
   .secreto-dos {
     padding: 75px 50px;
   }
-  .secreto-dos-heading {
+  /* .secreto-dos-heading {
     font-size: 35px;
-  }
+  } */
   .secreto-dos-subheading {
-    font-size: 14px;
+    /*  font-size: 14px; */
     max-width: 20rem;
   }
   .banner__buttons {
@@ -252,12 +252,12 @@
   .secreto-dos {
     padding: 75px 35px;
   }
-  .secreto-dos-heading {
+  /* .secreto-dos-heading {
     font-size: 32px;
-  }
-  .secreto-dos-subheading {
+  } */
+  /* .secreto-dos-subheading {
     font-size: 13px;
-  }
+  } */
   .button-mas {
     font-size: 12px;
     padding: 0.6rem 1.2rem;
@@ -273,14 +273,14 @@
 
 @media screen and (max-width: 500px) {
   .secreto-dos {
-    padding: 85px 85px;
+    padding: 60px 90px;
   }
   .secreto-dos-heading {
-    font-size: 30px;
+    /* font-size: 30px; */
     text-align: center;
   }
   .secreto-dos-subheading {
-    font-size: 12px;
+    /* font-size: 12px; */
     text-align: center;
   }
   .button-mas {
@@ -307,8 +307,14 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 465px) {
+  .secreto-dos {
+    padding: 77px;
+  }
+  .secreto-dos-subheading {
+    font-size: 15px;
+  }
   .banner__buttons {
-    margin-left: 65px;
+    margin-left: 78px;
   }
   .item img {
     height: 260px;
@@ -319,12 +325,23 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 465PX */
+/* RESPONSIVE 440PX */
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 440px) {
+  .secreto-dos {
+    padding: 40px;
+    margin-top: 35px;
+    margin-left: 18px;
+  }
+  .secreto-dos-heading {
+    font-size: 35px;
+  }
+  .secreto-dos-subheading {
+    font-size: 14px;
+  }
   .banner__buttons {
-    margin-left: 55px;
+    margin-left: 80px;
   }
 }
 
@@ -333,13 +350,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 428px) {
-  .secreto-dos {
-    padding: 80px 80px;
-  }
   .info-product button {
     font-size: 10px;
   }
-
   .container-items {
     gap: 35px;
     justify-content: center;
@@ -366,21 +379,32 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 414px) {
-  .secreto-dos-subheading {
+  /* .secreto-dos-subheading {
     max-width: 15rem;
-  }
+  } */
   .button-mas {
     font-size: 9px;
     padding: 0.6rem 0.8rem;
   }
   .banner__buttons {
-    margin-left: 45px;
+    margin-left: 80px;
   }
   .container-items {
     gap: 25px;
   }
   .item img {
     height: 215px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 400PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 400px) {
+  .cyrcled-logo {
+    width: 45px;
+    margin-left: -44px;
   }
 }
 
@@ -399,17 +423,17 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 390px) {
-  .secreto-dos {
+  /* .secreto-dos {
     padding: 75px 75px;
-  }
-  .secreto-dos-heading {
+  } */
+  /* .secreto-dos-heading {
     font-size: 28px;
-  }
-  .secreto-dos-subheading {
+  } */
+  /* .secreto-dos-subheading {
     font-size: 11px;
-  }
+  } */
   .banner__buttons {
-    margin-left: 42px;
+    margin-left: 65px;
   }
   .container-items {
     gap: 12px;
@@ -430,18 +454,28 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 360PX */
+/* RESPONSIVE 369PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 369px) {
   .secreto-dos {
+    margin-left: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 361PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 361px) {
+  /* .secreto-dos {
     padding: 85px 75px;
-  }
-  .secreto-dos-heading {
+  } */
+  /* .secreto-dos-heading {
     font-size: 26px;
-  }
-  .banner__buttons {
-    margin-left: 40px;
+  } */
+  .secreto-dos {
+    margin-left: 5px;
   }
   .button-mas {
     font-size: 8px;
@@ -507,9 +541,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 351px) {
-  .secreto-dos {
+  /* .secreto-dos {
     padding: 90px 70px;
-  }
+  } */
 }
 
 /* --------------------------------------------------------- */
@@ -517,9 +551,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 341px) {
-  .secreto-dos {
+  /* .secreto-dos {
     padding: 88px 58px;
-  }
+  } */
   .menu-partner-item {
     padding: 23px;
   }
@@ -569,9 +603,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 320px) {
-  .secreto-dos {
+  /* .secreto-dos {
     padding: 88px 50px;
-  }
+  } */
   .banner__buttons {
     margin-left: 41px;
   }
