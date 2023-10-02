@@ -36,7 +36,7 @@
   }
   .condiciones-politicas {
     margin-top: 50px;
-    font-size: 13px;
+    font-size: 14px;
   }
   footer .col-md-4 {
     font-size: 13px;
@@ -58,6 +58,10 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 530px) {
+  .suscribete {
+    font-size: 0.87rem;
+    letter-spacing: 1px;
+  }
   .siguenos h5 {
     font-size: 17px;
   }
@@ -78,7 +82,7 @@
 
 @media screen and (max-width: 515px) {
   .condiciones-politicas {
-    font-size: 12px;
+    font-size: 13px;
   }
   footer .col-md-4 {
     font-size: 12px;

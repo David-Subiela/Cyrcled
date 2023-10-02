@@ -222,6 +222,15 @@
   .banner__buttons {
     margin-left: 42px;
   }
+  .imagenes {
+    height: 400px;
+  }
+  .info-product button {
+    font-size: 12px;
+  }
+  .envio h3 {
+    font-size: 18px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -241,6 +250,18 @@
   }
   .item img {
     height: 275px;
+  }
+  .info-product h2 {
+    font-size: 16px;
+  }
+  span.add-cart-disappear {
+    font-size: 14px;
+  }
+  .price-rebaja {
+    font-size: 17px;
+  }
+  #cancelar-suscri {
+    font-size: 13px;
   }
 }
 
