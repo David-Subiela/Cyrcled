@@ -902,7 +902,71 @@
   }
 
   /* -------------------------------- style-cart ----------------*/
+
   .login-register {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 102%;
+    background: var(--cyrcled);
+    height: 80px;
+    color: var(--white);
+    padding: 15px;
+    text-align: center;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-register a {
+    float: none;
+    border: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+  }
+  .btnseparate {
+    height: 29px;
+    width: 1px;
+    margin: 0 10px;
+    opacity: 0.15;
+    border: 1px solid var(--white);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  .login-register .btn {
+    font-size: 14px;
+  }
+  .btn-primary {
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+  .btn-primary {
+    color: var(--white);
+    background-color: var(--cyrcled);
+    border-color: var(--cyrcled);
+  }
+  .btn {
+    display: inline-block;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 6px 24px 6px 25px;
+  }
+
+  /* 
+   .login-register {
     display: flex;
     position: relative;
     bottom: -33vh;
@@ -919,7 +983,7 @@
     color: var(--white) !important;
     font-weight: 700;
     letter-spacing: 3px;
-  }
+  } */
   .fin-encab-menu {
     height: 50%;
   }
