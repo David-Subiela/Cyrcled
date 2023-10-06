@@ -4,8 +4,11 @@
 
 @media screen and (min-width: 1920px) {
   .aboutUs-first {
-    height: 520px;
-    margin-top: 40px;
+    height: 690px;
+    /* margin-top: 40px; */
+  }
+  .aboutus-title {
+    margin: 230px 0px 54px 0px;
   }
 }
 
@@ -15,8 +18,11 @@
 
 @media screen and (max-width: 1919px) {
   .aboutUs-first {
-    height: 520px;
-    margin-top: 40px;
+    height: 690px;
+    /* margin-top: 40px; */
+  }
+  .aboutus-title {
+    margin: 230px 0px 54px 0px;
   }
 }
 
@@ -138,11 +144,11 @@
     width: 40px;
     height: 40px;
   }
-  .aboutUs-first,
+
   .aboutUs-secondary-one {
     padding-top: 50px;
   }
-  .aboutus-title,
+
   .aboutus-title-secondary {
     font-size: 3rem;
     margin: 35px 0px 54px 0px;

@@ -3,12 +3,17 @@
 /* --------------------------------------------------------- */
 
 @media screen and (min-width: 1920px) {
-  .imagenes {
+  /* .imagenes {
     height: 430px;
     margin-top: 40px;
+  } */
+  .imagenes {
+    height: 430px;
+    margin-top: 170px;
   }
   .secreto-dos {
-    padding: 113px 75px;
+    padding: 106px 75px;
+    padding-top: 240px;
   }
   .secreto-dos-heading {
     font-size: 65px;
@@ -33,12 +38,20 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 1919px) {
-  .imagenes {
+  /* .imagenes {
     height: 430px;
     margin-top: 40px;
   }
   .secreto-dos {
     padding: 113px 75px;
+  } */
+  .imagenes {
+    height: 430px;
+    margin-top: 170px;
+  }
+  .secreto-dos {
+    padding: 106px 75px;
+    padding-top: 240px;
   }
   .secreto-dos-heading {
     font-size: 65px;
@@ -64,8 +77,8 @@
 
 @media screen and (max-width: 1650) {
   .imagenes {
-    height: 435px;
-    margin-top: 35px;
+    height: 460px;
+    margin-top: 150px;
   }
 }
 
@@ -83,6 +96,10 @@
   input#email-newslet {
     margin-left: 20px;
   }
+  .imagenes {
+    height: 460px;
+    margin-top: 150px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -93,6 +110,9 @@
   .item {
     width: 315px;
   }
+  .imagenes {
+    margin-top: 150px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -102,6 +122,10 @@
 @media screen and (max-width: 1461px) {
   .item {
     width: 300px;
+  }
+  .imagenes {
+    height: 470px;
+    margin-top: 150px;
   }
 }
 
@@ -123,8 +147,19 @@
   .item {
     width: 274px;
   }
-  .imagenes {
+  /*  .imagenes {
     margin-top: 38px;
+  } */
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1330px) {
+  .imagenes {
+    height: 486px;
+    margin-top: 145px;
   }
 }
 
@@ -136,10 +171,10 @@
   .item {
     width: 260px;
   }
-  .imagenes {
+  /* .imagenes {
     margin-top: 28px;
     height: 450px;
-  }
+  } */
 }
 
 /* --------------------------------------------------------- */
@@ -245,9 +280,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 960px) {
-  .secreto-dos {
-    padding: 85px;
-  }
   .secreto-dos-heading {
     font-size: 45px;
   }
@@ -346,19 +378,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 795px) {
-  .imagenes {
-    height: 400px;
-    margin-top: 0px;
-  }
-  .secreto-dos {
-    padding: 75px;
-  }
   .secreto-dos-heading {
     font-size: 40px;
   }
-  /* .secreto-dos-subheading {
-    font-size: 15px;
-  } */
   .button-mas {
     font-size: 13px;
   }
@@ -392,12 +414,6 @@
   .card {
     font-size: 14px;
   }
-  .secreto-dos {
-    padding: 75px 50px;
-  }
-  /* .secreto-dos-heading {
-    font-size: 35px;
-  } */
   .secreto-dos-subheading {
     /*  font-size: 14px; */
     max-width: 20rem;
@@ -405,8 +421,12 @@
   .banner__buttons {
     margin-left: 42px;
   }
+  .encabezado {
+    margin-top: 15px;
+  }
   .imagenes {
-    height: 400px;
+    height: 485px;
+    margin-top: 120px;
   }
   .info-product button {
     font-size: 12px;
@@ -453,12 +473,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 560px) {
-  .secreto-dos {
-    padding: 75px 35px;
-  }
-  /* .secreto-dos-heading {
-    font-size: 32px;
-  } */
   .button-mas {
     font-size: 12px;
     padding: 0.6rem 1.2rem;
@@ -476,9 +490,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 500px) {
-  .secreto-dos {
-    padding: 60px 90px;
-  }
   .secreto-dos-heading {
     /* font-size: 30px; */
     text-align: center;
@@ -510,23 +521,10 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 489PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 489px) {
-  .secreto-dos {
-    padding: 72px 85px;
-  }
-}
-
-/* --------------------------------------------------------- */
 /* RESPONSIVE 479PX */
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 479px) {
-  .secreto-dos {
-    padding: 91px 74px;
-  }
   .secreto-dos-subheading {
     font-size: 14px;
   }
@@ -537,9 +535,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 465px) {
-  .secreto-dos {
-    padding: 92px 73px;
-  }
   .banner__buttons {
     margin-left: 78px;
   }
@@ -552,12 +547,13 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 455PX */
+/* RESPONSIVE 459PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 459px) {
   .secreto-dos {
-    padding: 92px 68px;
+    padding: 150px 70px;
+    padding-top: 240px;
   }
 }
 
@@ -575,14 +571,16 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 445PX */
+/* RESPONSIVE 449PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 449px) {
   .secreto-dos {
-    padding: 91px 62px;
+    padding: 149px 65px;
+    padding-top: 240px;
   }
 }
+
 /* --------------------------------------------------------- */
 /* RESPONSIVE 440PX */
 /* --------------------------------------------------------- */
@@ -657,22 +655,16 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 395PX */
+/* RESPONSIVE 401PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 401px) {
   .secreto-dos {
-    padding: 87px 61px;
+    padding: 151px 41px;
+    padding-top: 240px;
   }
-}
-
-/* --------------------------------------------------------- */
-/* RESPONSIVE 393PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 393px) {
-  .secreto-dos {
-    padding: 86px 55px;
+  .imagenes {
+    margin-top: 110px;
   }
 }
 
@@ -706,33 +698,10 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 381PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 381px) {
-  .secreto-dos {
-    padding: 87px 50px;
-  }
-}
-
-/* --------------------------------------------------------- */
-/* RESPONSIVE 371PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 371px) {
-  .secreto-dos {
-    padding: 86px 45px;
-  }
-}
-
-/* --------------------------------------------------------- */
 /* RESPONSIVE 361PX */
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 361px) {
-  .secreto-dos {
-    padding: 87px 37px;
-  }
   .button-mas {
     font-size: 10px;
     padding: 0.5rem 0.7rem;
@@ -793,6 +762,17 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 353PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 353px) {
+  .secreto-dos {
+    padding: 145px 20px;
+    padding-top: 240px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 345PX */
 /* --------------------------------------------------------- */
 
@@ -819,9 +799,6 @@
   .card {
     font-size: 13px;
   }
-  .banner__buttons {
-    margin-left: 50px;
-  }
 }
 
 /* --------------------------------------------------------- */
@@ -844,19 +821,6 @@
   }
   .info-product {
     gap: 0px;
-  }
-}
-
-/* --------------------------------------------------------- */
-/* RESPONSIVE 329PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 329px) {
-  .secreto-dos {
-    padding: 88px 30px;
-  }
-  .banner__buttons {
-    margin-left: 60px;
   }
 }
 
@@ -890,14 +854,11 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 315PX */
+/* RESPONSIVE 314PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 315px) {
-  .secreto-dos {
-    padding: 89px 25px;
-  }
-  .banner__buttons {
-    margin-left: 56px;
+@media screen and (max-width: 314px) {
+  .secreto-dos-subheading {
+    font-size: 12px;
   }
 }

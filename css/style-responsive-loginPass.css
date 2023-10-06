@@ -3,8 +3,8 @@
 /* --------------------------------------------------------- */
 
 @media screen and (min-width: 1920px) {
-  .formularios {
-    margin-top: 40px;
+  .account-page {
+    margin-top: 235px;
   }
 }
 
@@ -13,8 +13,8 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 1919px) {
-  .formularios {
-    margin-top: 40px;
+  .account-page {
+    margin-top: 235px;
   }
 }
 
@@ -68,6 +68,7 @@
     min-height: 36.25rem;
     max-width: 36.25rem;
     margin: 2.8rem;
+    margin-top: 140px;
   }
   .form-regses {
     margin-bottom: -10px;
