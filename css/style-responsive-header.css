@@ -937,7 +937,7 @@
     border: 1px solid var(--white);
     display: inline-block;
     position: relative;
-    top: 10px;
+    top: 0;
   }
   .login-register .btn {
     font-size: 14px;
@@ -1087,7 +1087,7 @@
 
   .menu-encab-completo nav {
     left: -335px;
-    width: 335px;
+    width: 353px;
   }
   .cyrcled-logo {
     margin-left: -55px;
@@ -1105,7 +1105,7 @@
   .menu-item-next {
     margin-left: 100px;
   }
-  .login-register {
+  /* .login-register {
     width: 335px;
     font-size: 12px;
     bottom: -36vh;
@@ -1114,7 +1114,7 @@
   .login-register-bottom a {
     padding-left: 30px;
     font-size: 13px;
-  }
+  } */
   .accept-newslet input {
     font-size: 12px;
     height: 40px;
@@ -1184,6 +1184,12 @@
   }
   .login-register {
     width: 325px;
+  }
+  .login-register .btn {
+    font-size: 12px;
+  }
+  .btn {
+    padding: 6px 20px 6px 21px;
   }
   .menu-item-next {
     margin-left: 80px;
@@ -1341,6 +1347,9 @@
   .login-register a {
     letter-spacing: 2px;
   }
+  .btn {
+    padding: 6px 18px 6px 19px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -1415,13 +1424,16 @@
   /* MENU DESPLEGABLE */
 
   .menu-encab-completo nav {
-    width: 275px;
+    width: 285px;
   }
   .login-register {
-    width: 285px;
+    width: 292px;
   }
   .login-register-bottom a {
     padding-left: 23px;
+  }
+  .btn {
+    padding: 6px 12px 6px 13px;
   }
 
   /* SUSCRIBETE */
@@ -1500,10 +1512,13 @@
     font-size: 12px;
   }
   .login-register {
-    width: 265px;
+    width: 263px;
   }
   .login-register a {
     letter-spacing: 1px;
+  }
+  .btn {
+    padding: 6px 7px 6px 8px;
   }
 }
 
@@ -1641,6 +1656,12 @@
   .login-register {
     width: 245px;
   }
+  .btn {
+    padding: 6px 3px 6px 4px;
+  }
+  .login-register .btn {
+    font-size: 11px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -1726,9 +1747,6 @@
   .input-search-appear {
     margin-right: 280px;
   }
-  .menu-encab-completo nav {
-    height: 115vh;
-  }
 }
 /* --------------------------------------------------------- */
 /* RESPONSIVE 402PX */
@@ -1738,11 +1756,21 @@
   .contenido {
     height: 51%;
   }
-  .login-register {
-    bottom: -38vh;
-  }
   .accept-newslet input {
     font-size: 10px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 397PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 397px) {
+  .menu-encab-completo nav {
+    height: 101vh;
+  }
+  .login-register {
+    bottom: 20px;
   }
 }
 
@@ -1792,9 +1820,6 @@
     margin-left: -13px;
     margin-top: 15px;
   }
-  .login-register {
-    bottom: -36vh;
-  }
 
   /* SUSCRIBETE */
   .contenido {
@@ -1809,6 +1834,19 @@
   input#email-newslet {
     margin-left: 23px;
     height: 33px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 368PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 368px) {
+  .menu-encab-completo nav {
+    height: 110vh;
+  }
+  .login-register {
+    bottom: 95px;
   }
 }
 
@@ -1838,10 +1876,13 @@
   }
   /* MENU DESPLEGABLE */
   .login-register {
-    bottom: -37vh;
+    width: 230px;
   }
   .menu-encab-completo nav {
     width: 222px;
+  }
+  .btnseparate {
+    margin: 0 5px;
   }
   .menu-encab {
     margin-top: 0px;
@@ -1956,6 +1997,15 @@
     width: 200px;
   }
   .login-register {
-    width: 213px;
+    width: 208px;
+  }
+  .login-register .btn {
+    font-size: 10px;
+  }
+  .btnseparate {
+    margin: 0 3px;
+  }
+  .btn {
+    letter-spacing: 0.5px;
   }
 }
