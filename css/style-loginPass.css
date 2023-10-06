@@ -39,6 +39,9 @@
   margin-bottom: 70px;
   margin-top: 20px;
 }
+.accept-register a {
+  color: var(--cyrcled);
+}
 
 /* TOGGLE BUTTONS */
 .toggle-menu {
@@ -80,12 +83,13 @@ input[type="email"],
 input[type="password"] {
   display: inline-block;
   padding: 10px;
-  border: 1px solid var(--bondie-blue);
+  border: 1px solid var(--cyrcled);
   background-color: var(--white);
   border-radius: 10px;
   width: 100%;
   font-weight: 700;
   font-size: 15px;
+  font-family: "Questrial", sans-serif;
 }
 input#signup-email,
 input#signup-name,
@@ -166,6 +170,17 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: var(--cerulean);
   color: var(--black);
+}
+
+input.accept-register {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--cyrcled);
+}
+input.accept-register:hover {
+  background-color: var(--cyrcled);
+  color: var(--white);
+  border: 1px solid var(--black);
 }
 
 @keyframes modal-newslet {

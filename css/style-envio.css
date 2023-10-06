@@ -17,6 +17,7 @@
 .envio {
   text-align: center;
   transform: translate(0%, -200%);
+  padding-bottom: 5px;
 }
 
 .separar-envio {

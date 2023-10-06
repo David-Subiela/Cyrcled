@@ -1,4 +1,44 @@
 /* --------------------------------------------------------- */
+/* RESPONSIVE 1920PX */
+/* --------------------------------------------------------- */
+
+@media screen and (min-width: 1920px) {
+  .formularios {
+    margin-top: 40px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1919PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1919px) {
+  .formularios {
+    margin-top: 40px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1650PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1650) {
+  .formularios {
+    margin-top: 40px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1330PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1330) {
+  .formularios {
+    margin-top: 30px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 765PX */
 /* --------------------------------------------------------- */
 
@@ -12,7 +52,10 @@
     padding: 0.825rem 4.7rem 0.625rem;
   }
   .section-title {
-    font-size: 19px;
+    font-size: 20px;
+  }
+  label.form-privacity {
+    font-size: 14px;
   }
 }
 
@@ -22,8 +65,8 @@
 
 @media screen and (max-width: 700px) {
   .account-page {
-    min-height: 27.25rem;
-    max-width: 27.25rem;
+    min-height: 36.25rem;
+    max-width: 36.25rem;
     margin: 2.8rem;
   }
   .form-regses {
@@ -36,9 +79,6 @@
   .toggle-btn-session {
     padding: 0.825rem 3.7rem 0.625rem;
     font-size: 0.75rem;
-  }
-  .section-title {
-    font-size: 13px;
   }
   input#signup-email,
   input#signup-name,
@@ -138,7 +178,7 @@
 
 @media screen and (max-width: 414px) {
   .section-title {
-    font-size: 11px;
+    font-size: 13px;
   }
   input#signup-email,
   input#signup-name,
@@ -165,6 +205,9 @@
 @media screen and (max-width: 410px) {
   .toggle-menu {
     padding: 3px;
+  }
+  .section-title {
+    font-size: 12px;
   }
 }
 
@@ -207,6 +250,9 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 394px) {
+  .section-title {
+    font-size: 13px;
+  }
   .toggle-menu {
     padding: 1.5px;
   }
@@ -228,7 +274,7 @@
 
 @media screen and (max-width: 390px) {
   input.accept-register {
-    letter-spacing: 1px;
+    letter-spacing: 0px;
   }
 }
 
@@ -271,26 +317,20 @@
   .ini-session-contra p {
     font-size: 11px;
   }
-  input.accept-register {
+  /* input.accept-register {
     font-size: 8px;
-  }
+  } */
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 357PX */
+/* RESPONSIVE 361PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 357px) {
-  .toggle-menu .toggle-btn-register,
-  .toggle-btn-session {
-    padding: 0.825rem 1.5rem 0.625rem;
-  }
-  button.toggle-btn-register.toggle-btn-active {
-    padding: 0.825rem 1.5rem 0.625rem;
-  }
-  button.toggle-btn-session.toggle-btn-active,
-  button.toggle-btn-register.toggle-btn-active {
-    padding: 0.825rem 1.5rem 0.625rem;
+@media screen and (max-width: 361px) {
+  .ini-register .name input,
+  .email input {
+    margin: 0px 0px 0px;
+    width: 100%;
   }
 }
 
@@ -313,12 +353,15 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 335PX */
+/* RESPONSIVE 350PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 350px) {
   input.accept-register {
-    letter-spacing: 0.6px;
+    font-size: 9px;
+  }
+  input[value="¡ÚNETE A CYRCLED!"] {
+    font-size: 10px;
   }
 }
 
@@ -338,8 +381,8 @@
   button.toggle-btn-register.toggle-btn-active {
     padding: 0.825rem 1rem 0.625rem;
   }
-  input.accept-register {
-    letter-spacing: 0.3px;
+  .pass-explain {
+    font-size: 10px;
   }
 }
 
@@ -360,6 +403,9 @@
     padding: 0.825rem 0.9rem 0.625rem;
   }
   input.accept-register {
-    font-size: 7px;
+    font-size: 8.3px;
+  }
+  input[value="¡ÚNETE A CYRCLED!"] {
+    font-size: 10px;
   }
 }

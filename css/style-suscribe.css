@@ -2,7 +2,7 @@
 .boletin {
   margin-top: 40px;
   position: relative;
-  background-color: var(--ligth-blue);
+  background-color: var(--cyrcled);
   /*   border-radius: 15px; */
   /* width: 97%; */
   /* margin: 0 auto; */
@@ -12,6 +12,13 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
+  color: var(--white);
+  letter-spacing: 3px;
+}
+.tnp-name,
+.tnp-email,
+.container-policy {
+  color: var(--white);
 }
 .form {
   display: flex;
@@ -25,7 +32,7 @@
   display: inline-block;
   width: 100%;
   padding: 10px;
-  border: 1px solid var(--bondie-blue);
+  border: 1px solid var(--black);
   color: #444;
   background-color: #fff;
   margin: 0 0 14px;
@@ -47,8 +54,9 @@ input[type="submit"] {
   border-radius: 10px;
 }
 input[type="submit"]:hover {
-  background-color: var(--cerulean);
-  color: black;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  color: var(--black);
 }
 
 .container-policy a {

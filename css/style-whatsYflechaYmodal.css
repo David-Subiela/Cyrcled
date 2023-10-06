@@ -14,7 +14,7 @@
   right: 30px;
   z-index: 1;
   /* box-shadow: 0 0 10px #fff, 0 0 0 3px #0003; */
-  box-shadow: 0 0 10px #fff, 0 0 0 3px var(--cerulean);
+  box-shadow: 0 0 10px #fff, 0 0 0 3px var(--cyrcled);
 }
 
 .flecha-arriba img {
@@ -36,22 +36,22 @@
   text-align: center;
   font-size: 35px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 1;
+  z-index: 2;
   transition: all 300ms ease;
   /* animation: efectButton 1.2s infinite; */
 }
 .btn-whatsApp:hover {
-  background: var(--bondie-blue);
+  background: var(--cyrcled);
 }
 /* Darle efecto al botón de whats */
-@keyframes efectButton {
+/* @keyframes efectButton {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
   100% {
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
-}
+} */
 
 /* TOOLTIP WHATSAPP*/
 .btn-whatsApp:hover .tooltip-box {
@@ -106,8 +106,7 @@
   margin: auto;
   width: 35%;
   height: 70%;
-  /* background: white; */
-  background: var(--ligth-blue);
+  background: white;
   border-radius: 10px;
   position: fixed;
   right: 400px;
@@ -120,12 +119,12 @@
   text-align: center;
 }
 .modal-discount {
-  color: var(--endeavour);
+  color: var(--cyrcled);
 }
 .contenido h4 {
   padding-top: 15px;
   text-align: center;
-  color: #b1acac;
+  color: var(--cyrcled);
   font-style: italic;
 }
 
@@ -156,15 +155,19 @@ input#email-newslet {
   width: 75%;
 }
 .accept-newslet input {
-  background: rgb(24, 23, 23);
+  background: var(--black);
   border-radius: 74px;
-  color: rgb(255, 255, 255);
+  color: var(--white);
   font-size: 19px;
   font-weight: 600;
   cursor: pointer;
   height: 50px;
   margin-left: 30px;
 }
+/* .accept-newslet input:hover {
+  background: var(--cyrcled);
+  color: var(--white);
+} */
 
 .newslet-politica {
   color: #606a72;

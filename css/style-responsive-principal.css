@@ -1,4 +1,322 @@
 /* --------------------------------------------------------- */
+/* RESPONSIVE 1920PX */
+/* --------------------------------------------------------- */
+
+@media screen and (min-width: 1920px) {
+  .imagenes {
+    height: 430px;
+    margin-top: 40px;
+  }
+  .secreto-dos {
+    padding: 113px 75px;
+  }
+  .secreto-dos-heading {
+    font-size: 65px;
+    max-width: 50rem;
+  }
+  .item {
+    width: 330px;
+  }
+  .details-prices {
+    justify-content: space-around;
+  }
+  .corazon {
+    justify-content: space-around;
+  }
+  .container-items {
+    gap: 0px;
+  }
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 655px;
+    top: 150px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1919PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1919px) {
+  .imagenes {
+    height: 430px;
+    margin-top: 40px;
+  }
+  .secreto-dos {
+    padding: 113px 75px;
+  }
+  .secreto-dos-heading {
+    font-size: 65px;
+    max-width: 50rem;
+  }
+  .item {
+    width: 330px;
+  }
+  .details-prices {
+    justify-content: space-around;
+  }
+  .corazon {
+    justify-content: space-around;
+  }
+  .container-items {
+    gap: 0px;
+  }
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 655px;
+    top: 150px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1760PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1760) {
+  #cerrar + label {
+    right: 615px;
+    top: 160px;
+  }
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 620px;
+    top: 155px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1650PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1650) {
+  .imagenes {
+    height: 435px;
+    margin-top: 35px;
+  }
+
+  /* SUSCRIBETE */
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 580px;
+    top: 150px;
+  }
+  #cerrar + label {
+    right: 580px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1598PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1598) {
+  .newslet-politica {
+    width: 70%;
+  }
+  .newslet-politica-btn button {
+    padding-top: 55px;
+  }
+  input#email-newslet {
+    margin-left: 20px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1510PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1510) {
+  .item {
+    width: 315px;
+  }
+  .contenido {
+    right: 535px;
+  }
+  #cerrar + label {
+    right: 430px;
+    top: 115px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1461PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1461px) {
+  .item {
+    width: 300px;
+  }
+}
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1400PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1400px) {
+  .email-newslet {
+    margin-top: 45px;
+    margin-left: 55px;
+  }
+  .item {
+    width: 287px;
+  }
+  .contenido {
+    right: 500px;
+  }
+  #cerrar + label {
+    right: 495px;
+  }
+  .newslet-politica-btn button {
+    padding-top: 35px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1355PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1355px) {
+  .item {
+    width: 274px;
+  }
+  .imagenes {
+    margin-top: 38px;
+  }
+  .email-newslet {
+    margin-left: 37px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1300PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1300px) {
+  .item {
+    width: 260px;
+  }
+  .imagenes {
+    margin-top: 28px;
+    height: 450px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1241PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1241px) {
+  .contenido {
+    right: 435px;
+  }
+  #cerrar + label {
+    right: 429px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1230PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1230px) {
+  .item {
+    width: 240px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1167PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1167px) {
+  .contenido {
+    right: 385px;
+    width: 35%;
+  }
+  #cerrar + label {
+    right: 380px;
+  }
+  .item {
+    width: 225px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 1125PX */
 /* --------------------------------------------------------- */
 
@@ -14,6 +332,9 @@
   .separar-envio {
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+  .container-items {
+    justify-content: center;
   }
 }
 
@@ -54,6 +375,9 @@
   .button-mas {
     font-size: 16px;
   }
+  .contenido {
+    height: 65%;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -67,6 +391,25 @@
   .item {
     margin-right: 0px;
     margin-left: 8px;
+  }
+  .envio {
+    padding-bottom: 0px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 986PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 986px) {
+  #cerrar + label {
+    right: 312px;
+  }
+  .contenido {
+    right: 320px;
+  }
+  .email-newslet {
+    margin-left: 23px;
   }
 }
 
@@ -112,6 +455,12 @@
   .info-product button {
     font-size: 11px;
   }
+  .item {
+    width: 210px;
+  }
+  .item img {
+    height: 320px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -146,6 +495,17 @@
 @media only screen and (max-width: 834px) {
   .menu-partner-item {
     padding: 35px;
+  }
+  .item {
+    width: 190px;
+  }
+  #cerrar + label {
+    right: 265px;
+  }
+  .contenido {
+    height: 64%;
+    width: 43%;
+    right: 275px;
   }
 }
 
@@ -276,15 +636,15 @@
   /* .secreto-dos-heading {
     font-size: 32px;
   } */
-  /* .secreto-dos-subheading {
-    font-size: 13px;
-  } */
   .button-mas {
     font-size: 12px;
     padding: 0.6rem 1.2rem;
   }
   .banner__buttons {
     margin-left: 40px;
+  }
+  .secreto-dos-subheading {
+    font-size: 16px;
   }
 }
 
@@ -316,10 +676,46 @@
   }
   .name label,
   .email label {
-    font-size: 11px;
+    font-size: 13px;
   }
   label.container-policy {
     font-size: 13px;
+  }
+  span.add-cart-disappear {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 489PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 489px) {
+  .secreto-dos {
+    padding: 72px 85px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 479PX */
+/* --------------------------------------------------------- */
+
+/* @media screen and (max-width: 479px) {
+  .secreto-dos {
+    padding: 73px 80px;
+  }
+} */
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 479PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 479px) {
+  .secreto-dos {
+    padding: 91px 74px;
+  }
+  .secreto-dos-subheading {
+    font-size: 14px;
   }
 }
 
@@ -329,10 +725,7 @@
 
 @media screen and (max-width: 465px) {
   .secreto-dos {
-    padding: 77px;
-  }
-  .secreto-dos-subheading {
-    font-size: 15px;
+    padding: 92px 73px;
   }
   .banner__buttons {
     margin-left: 78px;
@@ -346,15 +739,47 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 455PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 455px) {
+  .secreto-dos {
+    padding: 92px 68px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 450PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 450px) {
+  .container-items {
+    justify-content: center;
+  }
+  .item {
+    width: 185px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 445PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 445px) {
+  .secreto-dos {
+    padding: 91px 62px;
+  }
+}
+/* --------------------------------------------------------- */
 /* RESPONSIVE 440PX */
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 440px) {
-  .secreto-dos {
+  /* .secreto-dos {
     padding: 40px;
     margin-top: 35px;
     margin-left: 18px;
-  }
+  } */
   .secreto-dos-heading {
     font-size: 35px;
   }
@@ -375,12 +800,12 @@
     font-size: 10px;
   }
   .container-items {
-    gap: 35px;
+    gap: 15px;
     justify-content: center;
   }
-  .item {
+  /* .item {
     width: 155px;
-  }
+  } */
   .item img {
     height: 230px;
   }
@@ -408,10 +833,10 @@
     padding: 0.6rem 0.8rem;
   }
   .banner__buttons {
-    margin-left: 80px;
+    margin-left: 72px;
   }
   .container-items {
-    gap: 25px;
+    gap: 11px;
   }
   .item img {
     height: 215px;
@@ -419,23 +844,22 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 400PX */
+/* RESPONSIVE 395PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 400px) {
-  .cyrcled-logo {
-    width: 45px;
-    margin-left: -44px;
+@media screen and (max-width: 395px) {
+  .secreto-dos {
+    padding: 87px 61px;
   }
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 394PX */
+/* RESPONSIVE 393PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 394px) {
-  .container-items {
-    gap: 15px;
+@media screen and (max-width: 393px) {
+  .secreto-dos {
+    padding: 86px 55px;
   }
 }
 
@@ -444,20 +868,14 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 390px) {
-  /* .secreto-dos {
-    padding: 75px 75px;
-  } */
-  /* .secreto-dos-heading {
-    font-size: 28px;
-  } */
-  /* .secreto-dos-subheading {
-    font-size: 11px;
-  } */
   .banner__buttons {
     margin-left: 65px;
   }
   .container-items {
-    gap: 12px;
+    gap: 8px;
+  }
+  .item {
+    width: 175px;
   }
   .item img {
     height: 200px;
@@ -475,12 +893,22 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 369PX */
+/* RESPONSIVE 381PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 381px) {
   .secreto-dos {
-    margin-left: 10px;
+    padding: 87px 50px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 371PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 371px) {
+  .secreto-dos {
+    padding: 86px 45px;
   }
 }
 
@@ -489,17 +917,11 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 361px) {
-  /* .secreto-dos {
-    padding: 85px 75px;
-  } */
-  /* .secreto-dos-heading {
-    font-size: 26px;
-  } */
   .secreto-dos {
-    margin-left: 5px;
+    padding: 87px 37px;
   }
   .button-mas {
-    font-size: 8px;
+    font-size: 10px;
     padding: 0.5rem 0.7rem;
   }
   .container-items {
@@ -568,6 +990,19 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 345PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 345px) {
+  .secreto-dos-heading {
+    font-size: 33px;
+  }
+  .secreto-dos-subheading {
+    font-size: 13px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 341PX */
 /* --------------------------------------------------------- */
 
@@ -610,12 +1045,25 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 329PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 329px) {
+  .secreto-dos {
+    padding: 88px 30px;
+  }
+  .banner__buttons {
+    margin-left: 60px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 325PX */
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 325px) {
   .banner__buttons {
-    margin-left: 38px;
+    margin-left: 54px;
   }
 }
 
@@ -624,11 +1072,8 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 320px) {
-  /* .secreto-dos {
-    padding: 88px 50px;
-  } */
   .banner__buttons {
-    margin-left: 41px;
+    margin-left: 52px;
   }
   .menu-partner-item {
     padding: 20px;
@@ -638,5 +1083,18 @@
   }
   .price-rebaja {
     font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 315PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 315px) {
+  .secreto-dos {
+    padding: 89px 25px;
+  }
+  .banner__buttons {
+    margin-left: 56px;
   }
 }

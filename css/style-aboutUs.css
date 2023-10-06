@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--bondie-blue);
+  background-color: var(--black);
   padding-top: 60px;
 }
 .aboutus-title {
@@ -49,28 +49,33 @@
   background-color: #f8f8f8;
 }
 .aboutus-title-secondary {
-  margin: 55px 0px 54px 0px;
+  margin: 70px 0px 54px 0px;
   line-height: 4.2rem;
   font-size: 4.2rem;
   font-weight: 600;
+  color: var(--cyrcled);
 }
 .aboutus-subtitle-secondary {
-  max-width: 400px;
+  max-width: 435px;
   margin: 0 auto;
   margin-bottom: 54px;
   line-height: 2.2rem;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .aboutus-title-secondary-finish {
-  margin: 15px 0px 100px 0px;
+  margin: 20px 0px 117px 0px;
   line-height: 4.2rem;
   font-size: 3.2rem;
   font-weight: 600;
 }
 
+.aboutUs-planeta {
+  color: var(--cyrcled);
+}
+
 .separa-aboutUs {
   border: 1px solid;
-  border-color: var(--endeavour);
+  border-color: var(--cyrcled);
   width: 40%;
   margin: auto;
   margin-top: 10px;

@@ -1,4 +1,14 @@
 /* --------------------------------------------------------- */
+/* RESPONSIVE 900PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .cyrcled-logo-foot {
+    margin-left: -7px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 795PX */
 /* --------------------------------------------------------- */
 
@@ -23,23 +33,31 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 700PX */
+/* RESPONSIVE 690PX */
 /* --------------------------------------------------------- */
 
-@media screen and (max-width: 700px) {
-  .separa-encab {
-    width: 80%;
-    margin: 0 auto;
-    opacity: 0.2;
-    border: 1px solid;
-    border-color: var(--bondie-blue);
+@media screen and (max-width: 690px) {
+  .condiciones-politicas {
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 610PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 610px) {
+  .footer-clic {
+    margin-bottom: 25px;
   }
   .condiciones-politicas {
+    max-width: 575px;
     margin-top: 50px;
-    font-size: 14px;
   }
-  footer .col-md-4 {
-    font-size: 13px;
+  .separa-encab {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
@@ -58,10 +76,6 @@
 /* --------------------------------------------------------- */
 
 @media screen and (max-width: 530px) {
-  .suscribete {
-    font-size: 0.87rem;
-    letter-spacing: 1px;
-  }
   .siguenos h5 {
     font-size: 17px;
   }
@@ -74,18 +88,8 @@
   .location-clic span {
     font-size: 15px;
   }
-}
-
-/* --------------------------------------------------------- */
-/* RESPONSIVE 515PX */
-/* --------------------------------------------------------- */
-
-@media screen and (max-width: 515px) {
   .condiciones-politicas {
-    font-size: 13px;
-  }
-  footer .col-md-4 {
-    font-size: 12px;
+    max-width: 450px;
   }
 }
 
@@ -118,6 +122,15 @@
   .location-clic span {
     font-size: 15px;
   }
+  .condiciones-politicas {
+    max-width: 412px;
+  }
+  .cyrcled-logo-foot {
+    margin-left: 70px;
+  }
+  #cancelar-suscri {
+    font-size: 10px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -136,6 +149,13 @@
   }
   .metodos-pago {
     margin-left: 10px;
+  }
+  footer {
+    padding-top: 50px;
+  }
+  .siguenos h5,
+  .location-clic h5 {
+    font-size: 15px;
   }
 }
 
@@ -183,7 +203,7 @@
   span.pay-icon,
   span.paypal-icon {
     font-size: 11px;
-    margin-left: 5px;
+    margin-left: 2px;
   }
   .metodos-pago {
     display: flex;
@@ -193,10 +213,10 @@
   }
   .cyrcled-logo-foot {
     margin-bottom: 17px;
+    margin-top: 80px;
   }
   .siguenos h5,
-  .location-clic h5,
-  .location-clic a {
+  .location-clic h5 {
     font-size: 13px;
   }
   .location-clic,
@@ -208,6 +228,15 @@
   }
   footer .col-md-4 {
     font-size: 11px;
+  }
+  .location-clic a {
+    font-size: 10px;
+  }
+  .footer-container {
+    padding-top: 70px;
+  }
+  .siguenos {
+    padding-bottom: 30px;
   }
 }
 
@@ -238,28 +267,9 @@
 
 @media screen and (max-width: 330px) {
   .condiciones-politicas {
-    font-size: 11px;
-  }
-  footer .col-md-4 {
-    font-size: 11px;
+    max-width: 309px;
   }
   .metodos-pago {
-    padding-left: 0px;
-  }
-  span.pay-icon,
-  span.paypal-icon {
-    margin-left: 4px;
-  }
-  footer {
-    padding-top: 46px;
-  }
-  .siguenos h5,
-  .location-clic h5 {
-    font-size: 12px;
-    padding-left: 8px;
-  }
-  .siguenos a {
-    font-size: 9px;
-    padding-left: 7px;
+    gap: 6px;
   }
 }
