@@ -48,6 +48,92 @@
     padding-left: 25px;
     font-size: 18px;
   }
+
+  /* MODAL SUSCRIPCION */
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 655px;
+    top: 150px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1919PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1919px) {
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 655px;
+    top: 150px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1760PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1760) {
+  #cerrar + label {
+    right: 615px;
+    top: 160px;
+  }
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 620px;
+    top: 155px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -101,6 +187,74 @@
     padding-left: 25px;
     font-size: 16px;
   }
+  /* SUSCRIBETE */
+  .contenido {
+    width: 30%;
+    height: 65%;
+    right: 580px;
+    top: 150px;
+  }
+  #cerrar + label {
+    right: 580px;
+  }
+  .contenido h2 {
+    padding-top: 50px;
+  }
+  .contenido h4 {
+    padding-top: 30px;
+  }
+  .email-newslet {
+    margin-left: 65px;
+  }
+  .accept-newslet {
+    width: 60%;
+  }
+  .newslet-politica {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .newslet-politica-btn button {
+    font-size: 15px;
+    padding-top: 65px;
+  }
+  #cerrar + label {
+    right: 655px;
+    top: 160px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1510PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1510) {
+  .contenido {
+    right: 535px;
+  }
+  #cerrar + label {
+    right: 430px;
+    top: 115px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1400PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1400px) {
+  .email-newslet {
+    margin-top: 45px;
+    margin-left: 55px;
+  }
+  .contenido {
+    right: 500px;
+  }
+  #cerrar + label {
+    right: 495px;
+  }
+  .newslet-politica-btn button {
+    padding-top: 35px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -109,7 +263,6 @@
 
 @media screen and (max-width: 1366px) {
   .contenido {
-    height: 55%;
     right: 405px;
     top: 155px;
   }
@@ -123,6 +276,16 @@
   }
   .newslet-politica-btn button {
     font-size: 13px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1355PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1355px) {
+  .email-newslet {
+    margin-left: 37px;
   }
 }
 
@@ -152,6 +315,19 @@
 @media screen and (max-width: 1315px) {
   input#autocomplete-input {
     width: 535px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 1241PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1241px) {
+  .contenido {
+    right: 435px;
+  }
+  #cerrar + label {
+    right: 429px;
   }
 }
 
@@ -222,6 +398,20 @@
 }
 
 /* --------------------------------------------------------- */
+/* RESPONSIVE 1167PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 1167px) {
+  .contenido {
+    right: 385px;
+    width: 35%;
+  }
+  #cerrar + label {
+    right: 380px;
+  }
+}
+
+/* --------------------------------------------------------- */
 /* RESPONSIVE 1080PX */
 /* --------------------------------------------------------- */
 
@@ -242,6 +432,7 @@
 @media screen and (max-width: 1040px) {
   .contenido {
     right: 345px;
+    height: 65%;
   }
   .contenido h2 {
     font-size: 32px;
@@ -271,6 +462,22 @@
   }
   .email-newslet {
     margin-left: 11px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 986PX */
+/* --------------------------------------------------------- */
+
+@media screen and (max-width: 986px) {
+  #cerrar + label {
+    right: 312px;
+  }
+  .contenido {
+    right: 320px;
+  }
+  .email-newslet {
+    margin-left: 23px;
   }
 }
 
@@ -370,6 +577,21 @@
   }
   .encab-somos a {
     padding-left: 15px;
+  }
+}
+
+/* --------------------------------------------------------- */
+/* RESPONSIVE 834PX */
+/* --------------------------------------------------------- */
+
+@media only screen and (max-width: 834px) {
+  #cerrar + label {
+    right: 265px;
+  }
+  .contenido {
+    height: 64%;
+    width: 43%;
+    right: 275px;
   }
 }
 
@@ -480,7 +702,7 @@
 
 @media screen and (max-width: 750px) {
   .contenido {
-    height: 52%;
+    height: 58%;
     top: 200px;
     right: 230px;
   }
@@ -709,7 +931,7 @@
   }
   .contenido {
     right: 194px;
-    height: 50%;
+    height: 54%;
     width: 45%;
   }
   .accept-newslet input {
@@ -755,17 +977,6 @@
   .menu-text {
     right: 65px;
   }
-  /* .cyrcled-logo {
-    width: 90px;
-    margin-left: -60px;
-  } */
-  /* .encab-somos {
-    padding-bottom: 15px;
-  } */
-  /* .encab-somos a {
-    font-size: 13px;
-    padding-top: 19px;
-  } */
 }
 
 /* --------------------------------------------------------- */
@@ -809,10 +1020,6 @@
   .menu-text {
     right: 64px;
   }
-  /* .cyrcled-logo {
-    width: 80px;
-    margin-left: -80px;
-  } */
 
   .menu-encab-completo nav {
     left: -335px;
@@ -831,9 +1038,6 @@
     padding: 0px 0px;
     width: 85%;
   }
-  /* .menu-item-product {
-    font-size: 14px;
-  } */
   .menu-item-next {
     margin-left: 100px;
   }
@@ -847,37 +1051,12 @@
     padding-left: 30px;
     font-size: 13px;
   }
-  /* .contenido {
-    height: 57%;
-    width: 43%;
-    right: 200px;
-  } */
-  /* .contenido h2 {
-    font-size: 18px;
-  } */
-  /* .contenido h4 {
-    font-size: 11px;
-  } */
-  /*  #cerrar + label {
-    right: 185px;
-  } */
-  /* .email-newslet {
-    margin-top: 25px;
-    margin-left: 4px;
-  }
-  input#email-newslet {
-    font-size: 11px;
-    height: 32px;
-  }
   .accept-newslet input {
-    font-size: 11px;
-    height: 37px;
-    width: 73%;
+    font-size: 12px;
+    height: 40px;
+    width: 78%;
+    margin: 0 auto;
   }
-  .newslet-politica {
-    font-size: 9px;
-    width: 75%;
-  } */
 }
 
 /* --------------------------------------------------------- */
@@ -1098,19 +1277,6 @@
   .login-register a {
     letter-spacing: 2px;
   }
-  /*   
-  .login-register-bottom a {
-    padding-left: 23px;
-    font-size: 11px;
-  } */
-  /* .contenido {
-    right: 153px;
-    top: 130px;
-  }
-  #cerrar + label {
-    right: 135px;
-    top: 130px;
-  } */
 }
 
 /* --------------------------------------------------------- */
@@ -1248,10 +1414,10 @@
   .menu-item-next {
     margin-left: 92px;
   }
-  .accept-newslet input {
+  /* .accept-newslet input {
     margin: 10px 0;
     margin-left: 21px;
-  }
+  } */
   input#email-newslet {
     margin-left: 27px;
   }
@@ -1336,42 +1502,6 @@
 }
 
 /* --------------------------------------------------------- */
-/* RESPONSIVE 463PX */
-/* --------------------------------------------------------- */
-
-/* @media screen and (max-width: 463px) {
-  .contenido {
-    height: 56%;
-  }
-  .contenido h2 {
-    padding-top: 15px;
-  }
-  .contenido h4 {
-    padding-top: 12px;
-    font-size: 10px;
-  }
-  .email-newslet {
-    margin-top: 15px;
-  }
-  input#email-newslet {
-    margin-top: 15px;
-  }
-  .accept-newslet input {
-    font-size: 11px;
-    height: 28px;
-  }
-  .newslet-politica {
-    font-size: 8px;
-    width: 80%;
-    padding-top: 13px;
-  }
-  .newslet-politica-btn button {
-    font-size: 9px;
-    padding-top: 13px;
-  }
-} */
-
-/* --------------------------------------------------------- */
 /* RESPONSIVE 460PX */
 /* --------------------------------------------------------- */
 
@@ -1407,6 +1537,9 @@
   .contenido h2 {
     font-size: 23px;
   }
+  .newslet-politica {
+    width: 80%;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -1429,32 +1562,6 @@
   #autocomplete-input {
     font-size: 12px;
   }
-  /* .suscribete {
-    letter-spacing: 1.3px;
-  }
-  .contenido h2 {
-    padding-top: 30px;
-  }
-  .contenido h4 {
-    padding-top: 12px;
-    font-size: 11px;
-  }
-  input#email-newslet {
-    margin-top: 10px;
-  }
-  .accept-newslet input {
-    margin: 3px 0;
-    margin-left: 21px;
-  }
-  .newslet-politica {
-    font-size: 9px;
-  }
-  .newslet-politica-btn button {
-    font-size: 10px;
-  }
-  .accept-newslet input {
-    height: 37px;
-  } */
 
   /* MENU DESPLEGABLE */
   .menu-encab-completo nav {
@@ -1527,7 +1634,7 @@
   .contenido {
     right: 85px;
     width: 60%;
-    height: 48%;
+    height: 52%;
   }
   #cerrar + label {
     right: 70px;
@@ -1565,17 +1672,13 @@
 
 @media screen and (max-width: 402px) {
   .contenido {
-    height: 47%;
+    height: 51%;
   }
-
-  /* 
-  #cerrar + label {
-    right: 79px;
-    top: 115px;
-    font-size: 12px;
-  } */
   .login-register {
     bottom: -38vh;
+  }
+  .accept-newslet input {
+    font-size: 10px;
   }
 }
 
@@ -1626,12 +1729,12 @@
     margin-top: 15px;
   }
   .login-register {
-    bottom: -42vh;
+    bottom: -36vh;
   }
 
   /* SUSCRIBETE */
   .contenido {
-    height: 45%;
+    height: 50%;
   }
   .contenido h2 {
     font-size: 21.5px;
@@ -1642,15 +1745,6 @@
   input#email-newslet {
     margin-left: 23px;
     height: 33px;
-  }
-  .accept-newslet input {
-    margin-bottom: 12px;
-    margin-top: 5px;
-  }
-  .accept-newslet input {
-    font-size: 13px;
-    height: 40px;
-    width: 77%;
   }
 }
 
@@ -1700,8 +1794,9 @@
   }
 
   .contenido {
-    height: 43%;
+    height: 47%;
     right: 75px;
+    width: 70%;
   }
   .contenido h2 {
     font-size: 20px;
@@ -1715,11 +1810,6 @@
   #cerrar + label {
     right: 58px;
   }
-  .accept-newslet input {
-    font-size: 12px;
-    height: 38px;
-    width: 75%;
-  }
 }
 
 /* --------------------------------------------------------- */
@@ -1732,7 +1822,6 @@
   }
   .contenido {
     right: 50px;
-    width: 70%;
   }
   .contenido h2 {
     font-size: 19px;
