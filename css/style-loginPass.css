@@ -97,8 +97,7 @@ input#signup-apellido,
 input#signup-password {
   font-size: 15px;
   font-weight: 700;
-  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
-    0 0 8px var(--light-blue);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px var(--white);
   outline: 0 none;
   border-radius: 10px;
   width: 100%;
@@ -116,8 +115,7 @@ input#signup-email:focus,
 input#signup-name:focus,
 input#signup-apellido:focus,
 input#signup-password:focus {
-  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
-    0 0 8px var(--bondie-blue);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px var(--cyrcled);
   outline: 0 none;
 }
 
@@ -168,7 +166,7 @@ input[type="submit"] {
   border-radius: 10px;
 }
 input[type="submit"]:hover {
-  background-color: var(--cerulean);
+  background-color: var(--cyrcled);
   color: var(--black);
 }
 

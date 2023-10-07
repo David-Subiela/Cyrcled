@@ -21,11 +21,27 @@ favHeart.forEach((section) => {
 });
 
 /* APARECEN MÁS IMÁGENES AL HACER CLICK EN EL BOTÓN, VER MÁS (APARECEN EN BLOQUES DE 4)*/
+
 let btnImg = document.querySelector(".btn-light");
 let images = document.querySelectorAll(".dissapear");
 
 let currentIndex = 0;
-const blockSize = 4;
+let blockSize = 0;
+
+const mediaQuery = window.matchMedia("(max-width: 815px)");
+
+function handleMediaQueryChange(mediaQuery) {
+  if (mediaQuery.matches) {
+    // Ancho máximo de 815px alcanzado
+    blockSize = 3;
+  } else {
+    // Ancho máximo de 815px no alcanzado
+    blockSize = 4;
+  }
+}
+
+handleMediaQueryChange(mediaQuery);
+mediaQuery.addEventListener("change", handleMediaQueryChange);
 
 btnImg.addEventListener("click", () => {
   for (let i = currentIndex; i < currentIndex + blockSize; i++) {

@@ -908,7 +908,7 @@
     position: absolute;
     bottom: 15px;
     left: 0;
-    width: 102%;
+    width: 100%;
     background: var(--cyrcled);
     height: 80px;
     color: var(--white);
@@ -1214,7 +1214,7 @@
     margin-left: -30px;
   }
   .menu-text {
-    right: 30px;
+    right: 40px;
     font-size: 12px;
   }
   .encabezado #btn_menu {

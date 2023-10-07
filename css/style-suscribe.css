@@ -139,7 +139,7 @@ input[type="submit"]:hover {
   border-radius: 10px;
 }
 .btn-ok:hover {
-  background-color: var(--cerulean);
+  background-color: var(--cyrcled);
   color: black;
 }
 /* MODAL CANCELAR SUSCRIPCIÓN --- DENTRO DEL MODAL: */

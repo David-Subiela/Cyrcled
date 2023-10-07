@@ -1,7 +1,7 @@
 /* NOTIFICACIÓN CANTIDAD DE PRODUCTOS CARRITO */
 .header__cart--notification-aboutUs {
   /* display: none; */
-  background-color: var(--cerulean);
+  background-color: var(--cyrcled);
   width: 15px;
   height: 12px;
   border-radius: 16px;
@@ -27,6 +27,7 @@
   line-height: 4.2rem;
   font-size: 4.2rem;
   font-weight: 600;
+  text-align: center;
 }
 .high-cyrcled {
   color: var(--white);
@@ -54,6 +55,7 @@
   font-size: 4.2rem;
   font-weight: 600;
   color: var(--cyrcled);
+  text-align: center;
 }
 .aboutus-subtitle-secondary {
   max-width: 435px;
